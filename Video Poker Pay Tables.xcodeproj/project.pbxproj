@@ -12,6 +12,17 @@
 		AA307D501EF3EA1A006FF7DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA307D4E1EF3EA1A006FF7DF /* Main.storyboard */; };
 		AA307D521EF3EA1A006FF7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA307D511EF3EA1A006FF7DF /* Assets.xcassets */; };
 		AA307D551EF3EA1A006FF7DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA307D531EF3EA1A006FF7DF /* LaunchScreen.storyboard */; };
+		AA307D5D1EF3F2AF006FF7DF /* VPLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = AA307D5C1EF3F2AF006FF7DF /* VPLogo.png */; };
+		AA307D5F1EF3FDF9006FF7DF /* GameNamesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D5E1EF3FDF9006FF7DF /* GameNamesTable.swift */; };
+		AA307D611EF40ECF006FF7DF /* paytableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D601EF40ECF006FF7DF /* paytableData.swift */; };
+		AA307D641EF42B0D006FF7DF /* GenericPayTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D631EF42B0D006FF7DF /* GenericPayTables.swift */; };
+		AA307D691EF4360D006FF7DF /* GameFamilyTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D681EF4360D006FF7DF /* GameFamilyTable.swift */; };
+		AA307D6E1EF7D7C9006FF7DF /* PayTableTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D6D1EF7D7C9006FF7DF /* PayTableTable.swift */; };
+		AA307D711EF7DDAB006FF7DF /* GamePayTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D701EF7DDAB006FF7DF /* GamePayTables.swift */; };
+		AA307D731EF7E3D1006FF7DF /* PayTableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D721EF7E3D1006FF7DF /* PayTableScreen.swift */; };
+		AA307D751EF7F56B006FF7DF /* PayTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA307D741EF7F56B006FF7DF /* PayTableCell.swift */; };
+		AA307D771EF7FC85006FF7DF /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = AA307D761EF7FC85006FF7DF /* BG.png */; };
+		AA307D791EF8165C006FF7DF /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AA307D781EF8165C006FF7DF /* Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		AA307D511EF3EA1A006FF7DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA307D541EF3EA1A006FF7DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA307D561EF3EA1A006FF7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA307D5C1EF3F2AF006FF7DF /* VPLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VPLogo.png; path = "Video Poker Pay Tables/Images/VPLogo.png"; sourceTree = "<group>"; };
+		AA307D5E1EF3FDF9006FF7DF /* GameNamesTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNamesTable.swift; sourceTree = "<group>"; };
+		AA307D601EF40ECF006FF7DF /* paytableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paytableData.swift; sourceTree = "<group>"; };
+		AA307D631EF42B0D006FF7DF /* GenericPayTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericPayTables.swift; sourceTree = "<group>"; };
+		AA307D681EF4360D006FF7DF /* GameFamilyTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameFamilyTable.swift; sourceTree = "<group>"; };
+		AA307D6D1EF7D7C9006FF7DF /* PayTableTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTableTable.swift; sourceTree = "<group>"; };
+		AA307D701EF7DDAB006FF7DF /* GamePayTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePayTables.swift; sourceTree = "<group>"; };
+		AA307D721EF7E3D1006FF7DF /* PayTableScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTableScreen.swift; sourceTree = "<group>"; };
+		AA307D741EF7F56B006FF7DF /* PayTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTableCell.swift; sourceTree = "<group>"; };
+		AA307D761EF7FC85006FF7DF /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG.png; path = "Video Poker Pay Tables/Images/BG.png"; sourceTree = "<group>"; };
+		AA307D781EF8165C006FF7DF /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button.png; path = "Video Poker Pay Tables/Images/Button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				AA307D491EF3EA1A006FF7DF /* Video Poker Pay Tables */,
+				AA307D621EF42656006FF7DF /* Media */,
 				AA307D481EF3EA1A006FF7DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,13 +78,55 @@
 			isa = PBXGroup;
 			children = (
 				AA307D4A1EF3EA1A006FF7DF /* AppDelegate.swift */,
-				AA307D4C1EF3EA1A006FF7DF /* ViewController.swift */,
 				AA307D4E1EF3EA1A006FF7DF /* Main.storyboard */,
+				AA307D651EF42EC9006FF7DF /* Data */,
+				AA307D6A1EF438CD006FF7DF /* ViewControllers */,
 				AA307D511EF3EA1A006FF7DF /* Assets.xcassets */,
 				AA307D531EF3EA1A006FF7DF /* LaunchScreen.storyboard */,
 				AA307D561EF3EA1A006FF7DF /* Info.plist */,
 			);
 			path = "Video Poker Pay Tables";
+			sourceTree = "<group>";
+		};
+		AA307D621EF42656006FF7DF /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				AA307D781EF8165C006FF7DF /* Button.png */,
+				AA307D761EF7FC85006FF7DF /* BG.png */,
+				AA307D6F1EF7DD02006FF7DF /* GlassIcons */,
+				AA307D5C1EF3F2AF006FF7DF /* VPLogo.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		AA307D651EF42EC9006FF7DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA307D601EF40ECF006FF7DF /* paytableData.swift */,
+				AA307D631EF42B0D006FF7DF /* GenericPayTables.swift */,
+				AA307D701EF7DDAB006FF7DF /* GamePayTables.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		AA307D6A1EF438CD006FF7DF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA307D4C1EF3EA1A006FF7DF /* ViewController.swift */,
+				AA307D5E1EF3FDF9006FF7DF /* GameNamesTable.swift */,
+				AA307D681EF4360D006FF7DF /* GameFamilyTable.swift */,
+				AA307D6D1EF7D7C9006FF7DF /* PayTableTable.swift */,
+				AA307D741EF7F56B006FF7DF /* PayTableCell.swift */,
+				AA307D721EF7E3D1006FF7DF /* PayTableScreen.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AA307D6F1EF7DD02006FF7DF /* GlassIcons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GlassIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +189,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA307D771EF7FC85006FF7DF /* BG.png in Resources */,
+				AA307D5D1EF3F2AF006FF7DF /* VPLogo.png in Resources */,
 				AA307D551EF3EA1A006FF7DF /* LaunchScreen.storyboard in Resources */,
 				AA307D521EF3EA1A006FF7DF /* Assets.xcassets in Resources */,
 				AA307D501EF3EA1A006FF7DF /* Main.storyboard in Resources */,
+				AA307D791EF8165C006FF7DF /* Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA307D6E1EF7D7C9006FF7DF /* PayTableTable.swift in Sources */,
 				AA307D4D1EF3EA1A006FF7DF /* ViewController.swift in Sources */,
+				AA307D691EF4360D006FF7DF /* GameFamilyTable.swift in Sources */,
+				AA307D611EF40ECF006FF7DF /* paytableData.swift in Sources */,
+				AA307D711EF7DDAB006FF7DF /* GamePayTables.swift in Sources */,
+				AA307D751EF7F56B006FF7DF /* PayTableCell.swift in Sources */,
 				AA307D4B1EF3EA1A006FF7DF /* AppDelegate.swift in Sources */,
+				AA307D731EF7E3D1006FF7DF /* PayTableScreen.swift in Sources */,
+				AA307D641EF42B0D006FF7DF /* GenericPayTables.swift in Sources */,
+				AA307D5F1EF3FDF9006FF7DF /* GameNamesTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
