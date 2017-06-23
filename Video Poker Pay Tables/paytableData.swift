@@ -8,7 +8,8 @@
 
 import Foundation
 
-let gameNames: [String] = ["Classic Game King", "UX", "Dream Card", "Super Times Pay", "Double Super Times Pay", "Hundred Play"]
+let SHGameNames: [String] = ["Classic Game King", "Ultimate X", "Dream Card", "Super Times Pay", "Double Super Times Pay", "Hundred Play"]
+let MHGameNames: [String] = ["M Classic Game King", "Ultimate X", "M Dream Card", "M Super Times Pay", "M Double Super Times Pay", "M Hundred Play"]
 
 let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus"]
 // 0 - 13 same as F number
@@ -26,6 +27,8 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 
 var genericPayTables: [genericPayTable] = []
 var games: [String : game] = [:]
+var SHGames: [String : game] = [:]
+var MHGames: [String : game] = [:]
 var currentGame: game? = nil
 
 struct genericPayTable {
@@ -55,7 +58,7 @@ struct payTable {
 }
 
 struct game {
-    let name: String
+    var name: String
     var gameFamilies: [String]
     var sortedPayTables: [ String : [payTable]]
     var payTables: [payTable]
@@ -84,14 +87,27 @@ struct game {
 }
 
 func createGameObjects () {
-    for i in 0 ..< gameNames.count  {
-        let name = gameNames[i]
-        games[name] = game(name: name)
+    for i in 0 ..< SHGameNames.count  {
+        let name = SHGameNames[i]
+        SHGames[name] = game(name: name)
+    }
+    for i in 0 ..< MHGameNames.count  {
+        let name = MHGameNames[i]
+        MHGames[name] = game(name: name)
+
     }
 }
 
-func populateGameObject (gameName: String) {
-    games[gameName]?.payTables = (gamePayTables?[gameName]!)!
-    games[gameName]?.populateGameFamilies()
-    games[gameName]?.image = "VPLogo.png"
+func populateGameObject (gameName: String, singleHand: Bool) {
+    var payTables: [String : [payTable]]? = nil
+    if singleHand {
+        payTables = SHGamePayTables
+    } else {
+        payTables = MHGamePayTables
+    }
+    if (games[gameName]?.payTables.count)! < 1 {
+        games[gameName]?.payTables = (payTables?[gameName]!)!
+        games[gameName]?.populateGameFamilies()
+        games[gameName]?.image = gameName + ".png"
+    }
 }

@@ -19,7 +19,6 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(gameFamilies.count)
         return gameFamilies.count
     }
     
@@ -27,7 +26,7 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameFamilyCell", for: indexPath)
         cell.textLabel?.text = gameFamilies[indexPath.row];
         
-        // Customis Cells
+        // Customise Cells
         cell.textLabel?.textColor = UIColor.white
         cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.borderWidth = 0.2

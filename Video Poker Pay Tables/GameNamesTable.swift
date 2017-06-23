@@ -22,17 +22,21 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if singleHand {
-            return games.count
+            return SHGameNames.count
         } else {
-            return 3
+            return MHGameNames.count
         }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameNameCell", for: indexPath)
-        cell.textLabel?.text = games[gameNames[indexPath.row]]?.name;
+        if singleHand {
+            cell.textLabel?.text = SHGameNames[indexPath.row];
+        } else {
+            cell.textLabel?.text = MHGameNames[indexPath.row];
+        }
         
-        // Customis Cells
+        // Customise Cells
         cell.textLabel?.textColor = UIColor.white
         cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.borderWidth = 0.2
@@ -61,6 +65,11 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     //Change number of hands on list
     @IBAction func changeHandHum(_ sender: Any) {
         singleHand = !singleHand
+        if (singleHand) {
+            games = SHGames
+        } else {
+            games = MHGames
+        }
         GameNamesTable.reloadData()
     }
     // MARK: - Navigation
@@ -71,12 +80,16 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         guard let selectedRow = indexPath?.row else { return }
         
         // Populate Game Object when Selected
-        let gameName = gameNames[selectedRow]
-        populateGameObject(gameName: gameName)
+        var gameName : String? = nil
+        if singleHand {
+            gameName = SHGameNames[selectedRow]
+        } else {
+            gameName = MHGameNames[selectedRow]
+        }
+        populateGameObject(gameName: gameName!, singleHand: singleHand)
 
-        currentGame = games[gameNames[selectedRow]]
+        currentGame = games[gameName!]
         let destinationViewController = segue.destination as? GameFamilyTable
         destinationViewController?.gameFamilies = (currentGame?.gameFamilies)!
     }
-
 }

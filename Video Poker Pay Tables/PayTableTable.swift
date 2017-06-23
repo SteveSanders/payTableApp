@@ -11,6 +11,7 @@ import UIKit
 class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var PayTableTable: UITableView!
     @IBOutlet weak var glassImage: UIImageView!
+    @IBOutlet weak var gameFamilyNameField: UILabel!
     
     var payTables = [payTable]()
     @IBOutlet weak var payTableCell: UITableViewCell!
@@ -41,6 +42,8 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
         PayTableTable.layer.borderWidth = 0.2
         PayTableTable.layer.borderColor = UIColor.white.cgColor
         PayTableTable.clipsToBounds = true
+        
+        gameFamilyNameField.text = gameFamilyNames[payTables[0].gameFamily]
     }
     
     override func didReceiveMemoryWarning() {
@@ -57,6 +60,7 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
         let payTable = payTables[selectedRow]
         let destinationViewController = segue.destination as? PayTableScreen
         destinationViewController?.screenPayTable = payTable
+        destinationViewController?.payTables = payTables
      }
 
     

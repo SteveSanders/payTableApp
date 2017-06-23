@@ -1,14 +1,14 @@
 //
-//  GameKing.swift
+//  MHGamePayTables.swift
 //  Video Poker Pay Tables
 //
-//  Created by Steve Sandbach on 16/06/2017.
+//  Created by Steve Sandbach on 23/06/2017.
 //  Copyright © 2017 VideoPoker.com. All rights reserved.
 //
 
 import Foundation
 
-var gamePayTables: [String : [payTable]]? = [
+var MHGamePayTables: [String : [payTable]]? = [
     "Classic Game King" : [
         //JoB
         payTable(genericPayTable: f0sf0, payBack: "99.544"),
@@ -19,5 +19,9 @@ var gamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f0sf5, payBack: "94.996"),
         //Bonus Poker
         payTable(genericPayTable: f1sf0, payBack: "99.166"),
+    ],
+    "Ultimate X" : [
+        // JoB
+        payTable(genericPayTable: f0sf2, payBack: "91.298"),
     ]
 ]
