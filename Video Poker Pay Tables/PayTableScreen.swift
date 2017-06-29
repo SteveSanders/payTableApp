@@ -18,7 +18,11 @@ class PayTableScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        glassImage.image = UIImage( named: (currentGame?.image)!)
+        if singleHand {
+            glassImage.image = UIImage( named: "SH" + (currentGame?.image)!)
+        } else {
+            glassImage.image = UIImage( named: (currentGame?.image)!)
+        }
         self.navigationController?.isNavigationBarHidden = false
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
         AllPays.text = screenPayTable?.pays

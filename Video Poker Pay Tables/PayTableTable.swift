@@ -14,7 +14,7 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
     @IBOutlet weak var gameFamilyNameField: UILabel!
     
     var payTables = [payTable]()
-    @IBOutlet weak var payTableCell: UITableViewCell!
+    // @IBOutlet weak var payTableCell: UITableViewCell!
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -33,7 +33,11 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        glassImage.image = UIImage( named: (currentGame?.image)!)
+        if singleHand {
+            glassImage.image = UIImage( named: "SH" + (currentGame?.image)!)
+        } else {
+            glassImage.image = UIImage( named: (currentGame?.image)!)
+        }
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
         
         // Customise Table

@@ -67,8 +67,10 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         singleHand = !singleHand
         if (singleHand) {
             games = SHGames
+            singleHand = true
         } else {
             games = MHGames
+            singleHand = false
         }
         GameNamesTable.reloadData()
     }

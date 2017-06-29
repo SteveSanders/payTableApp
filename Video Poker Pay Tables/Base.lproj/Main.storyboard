@@ -15,7 +15,7 @@
         <scene sceneID="wMF-Xj-Dta">
             <objects>
                 <navigationController id="bPf-dr-5vk" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="odM-QX-2aE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="odM-QX-2aE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -311,8 +311,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCV-X9-Sa6">
-                                                    <rect key="frame" x="8" y="8" width="25" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="7/5" textAlignment="natural" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rCV-X9-Sa6">
+                                                    <rect key="frame" x="8" y="8" width="252" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -329,6 +329,7 @@
                                                 <constraint firstItem="dFV-Ra-Kzj" firstAttribute="trailing" secondItem="Yaz-AZ-GFT" secondAttribute="trailingMargin" id="EXf-0F-Te9"/>
                                                 <constraint firstItem="rCV-X9-Sa6" firstAttribute="baseline" secondItem="dFV-Ra-Kzj" secondAttribute="baseline" id="MHJ-Ey-vHn"/>
                                                 <constraint firstItem="rCV-X9-Sa6" firstAttribute="top" secondItem="Yaz-AZ-GFT" secondAttribute="topMargin" id="eUH-xU-GZk"/>
+                                                <constraint firstItem="dFV-Ra-Kzj" firstAttribute="leading" secondItem="rCV-X9-Sa6" secondAttribute="trailing" constant="8" id="gr3-hh-TDS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
@@ -378,7 +379,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZd-ep-nsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3018" y="153"/>
+            <point key="canvasLocation" x="3016.8000000000002" y="152.47376311844079"/>
         </scene>
         <!--Pay Table Screen-->
         <scene sceneID="CWH-g3-w1T">
