@@ -9,7 +9,7 @@
 import Foundation
 
 let SHGameNames: [String] = ["Classic Game King", "Double Pay", "Double Super Times Pay", "Dream Card", "Good Times Pay", "Quick Quads", "Super Times Pay", "Ultimate Four of a Kind", "Ultimate X"]
-let MHGameNames: [String] = []
+let MHGameNames: [String] = ["Triple Play Draw Poker", "Five Play Draw Poker", "Ten Play Draw Poker", "Double Super Times Pay", "Good Times Pay", "Hot Roll", "Multi-Strike", "Powerhouse", "Quick Quads", "Spin Poker", "Spin Poker Deluxe", "Super Times Pay Spin Poker", "Super Times Pay", "Super Triple Play", "Super Triple Play Jackpots", "Double Super Times Pay", "Ultimate X - 3 Hand", "Ultimate X - 5 Hand", "Ultimate X - 10 Hand", "Ultimate X Poker Bonus Streak - 3 Hand", "Ultimate X Poker Bonus Streak - 5 Hand", "Ultimate X Poker Bonus Streak - 10 Hand", "Wheel Poker - 3 Hand", "Wheel Poker - 5 Hand"]
 
 let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus"]
 // 0 - 13 same as F number
@@ -69,6 +69,16 @@ struct game {
         self.gameFamilies = []
         self.payTables = []
         self.sortedPayTables = [:]
+        
+        let range = name.range(of:" - ")
+        var imageName = ""
+        if range != nil {
+            imageName = name.substring(to: (range?.lowerBound)!)
+            print (imageName)
+        } else {
+            imageName = name
+        }
+        self.image = imageName + ".png"
     }
     
     mutating func populateGameFamilies () {
@@ -100,15 +110,16 @@ func createGameObjects () {
 }
 
 func populateGameObject (gameName: String, singleHand: Bool) {
-    var payTables: [String : [payTable]]? = nil
-    if singleHand {
-        payTables = SHGamePayTables
-    } else {
-        payTables = MHGamePayTables
-    }
-    if (games[gameName]?.payTables.count)! < 1 {
-        games[gameName]?.payTables = (payTables?[gameName]!)!
-        games[gameName]?.populateGameFamilies()
-        games[gameName]?.image = gameName + ".png"
+    if games[gameName]?.payTables.count == 0 {
+        var payTables: [String : [payTable]]? = nil
+        if singleHand {
+            payTables = SHGamePayTables
+        } else {
+            payTables = MHGamePayTables
+        }
+        if (games[gameName]?.payTables.count)! < 1 {
+            games[gameName]?.payTables = (payTables?[gameName]!)!
+            games[gameName]?.populateGameFamilies()
+        }
     }
 }

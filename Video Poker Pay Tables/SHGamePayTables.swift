@@ -78,10 +78,11 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f8sf9, payBack: "98.57"),
         payTable(genericPayTable: f8sf10, payBack: "99.43"),
         // Deuces Wild
-        payTable(genericPayTable: f9sf0, payBack: "99.95"),
-        payTable(genericPayTable: f9sf1, payBack: "99.3"),
-        payTable(genericPayTable: f9sf2, payBack: "97.86"),
-        payTable(genericPayTable: f9sf3, payBack: "96.71"),
+        payTable(genericPayTable: f9sf1, payBack: "100.23"),
+        payTable(genericPayTable: f9sf2, payBack: "99.41"),
+        payTable(genericPayTable: f9sf3, payBack: "98.07"),
+        payTable(genericPayTable: f9sf5, payBack: "97.26"),
+        payTable(genericPayTable: f9sf6, payBack: "96.45"),
         // Deuces Wild Bonus
         payTable(genericPayTable: f10sf0, payBack: "99.950"),
         payTable(genericPayTable: f10sf1, payBack: "96.3"),
@@ -199,8 +200,8 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f4sf3, payBack: "97.14"),
         payTable(genericPayTable: f4sf4, payBack: "93.36"),
         // Triple Double Bonus
-        payTable(genericPayTable: f7sf1, payBack: "98.21"),
-        payTable(genericPayTable: f7sf2, payBack: "98.31"),
+        payTable(genericPayTable: f7sf1, payBack: "98.31"),
+        payTable(genericPayTable: f7sf2, payBack: "98.21"),
         // Triple Bonus Plus
         payTable(genericPayTable: f112sf1, payBack: "99.87"),
         payTable(genericPayTable: f112sf2, payBack: "99.1"),

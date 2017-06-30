@@ -49,7 +49,7 @@ let f4sf2: genericPayTable = genericPayTable(name: "9/5", pays: "800/50/400/160/
 let f4sf3: genericPayTable = genericPayTable(name: "8/5", pays: "800/50/400/160/160/80/50/8/5/4/3/1/1", gameFamily: 4)
 let f4sf4: genericPayTable = genericPayTable(name: "7/5", pays: "800/50/400/160/160/80/50/7/5/4/3/1/1", gameFamily: 4)
 let f4sf5: genericPayTable = genericPayTable(name: "6/5", pays: "800/50/400/160/160/80/50/6/5/4/3/1/1", gameFamily: 4)
-
+let f4sf8: genericPayTable = genericPayTable(name: "10/6/4", pays: "800/50/400/160/160/80/50/10/6/4/3/1/1", gameFamily: 4)
 // Super Aces Bonus
 let f5sf0: genericPayTable = genericPayTable(name: "8/5", pays: "800/60/400/80/50/8/5/4/3/1/1", gameFamily: 5)
 let f5sf1: genericPayTable = genericPayTable(name: "7/5", pays: "800/60/400/80/50/7/5/4/3/1/1", gameFamily: 5)
@@ -94,6 +94,7 @@ let f9sf8: genericPayTable = genericPayTable(name: "25/15/11/4/4/3", pays: "800/
 let f9sf9: genericPayTable = genericPayTable(name: "20/12/9/5/3/2", pays: "800/200/20/12/9/5/3/2/2/1", gameFamily: 9)
 let f9sf10: genericPayTable = genericPayTable(name: "600/20/10/8/4/3/2", pays: "800/600/20/10/8/4/3/2/2/1", gameFamily: 9)
 let f9sf11: genericPayTable = genericPayTable(name: "25/15/8/4/4/3", pays: "800/200/25/15/8/4/4/3/2/1", gameFamily: 9)
+let f9sf300: genericPayTable = genericPayTable(name: "20/12/10/4/4/3 - 8X Multi", pays: "800/200/20/12/10/4/4/3/2/1", gameFamily: 9)
 
 // Deuces Wild Bonus
 let f10sf0: genericPayTable = genericPayTable(name: "9/4/4/3", pays: "800/400/200/80/40/20/25/9/4/4/3/1/1", gameFamily: 10)
@@ -101,6 +102,7 @@ let f10sf1: genericPayTable = genericPayTable(name: "13/4/3/3", pays: "800/400/2
 let f10sf2: genericPayTable = genericPayTable(name: "10/4/3/3", pays: "800/400/200/80/40/20/25/10/4/3/3/1/1", gameFamily: 10)
 let f10sf3: genericPayTable = genericPayTable(name: "12/4/3/2", pays: "800/400/200/80/40/20/25/12/4/3/2/1/1", gameFamily: 10)
 let f10sf4: genericPayTable = genericPayTable(name: "10/4/3/2", pays: "800/400/200/80/40/20/25/10/4/3/2/1/1", gameFamily: 10)
+let f10sf300: genericPayTable = genericPayTable(name: "12/4/3/2 - 8X Multi", pays: "800/400/200/80/40/20/25/12/4/3/2/1/1", gameFamily: 10)
 
 // Deuces Wild Double Bonus
 let f11sf0: genericPayTable = genericPayTable(name: "25/12", pays: "800/400/200/25/160/50/20/12/4/3/2/1/1", gameFamily: 11)

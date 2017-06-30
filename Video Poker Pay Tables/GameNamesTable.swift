@@ -10,7 +10,7 @@ import UIKit
 
 class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var singleHand : Bool = true
+    // var singleHand : Bool = true
 
     @IBOutlet weak var handNumSelector: UISegmentedControl!
     @IBOutlet weak var GameNameCell: UITableViewCell!
@@ -55,6 +55,8 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         GameNamesTable.layer.borderWidth = 0.2
         GameNamesTable.layer.borderColor = UIColor.white.cgColor
         GameNamesTable.clipsToBounds = true
+        singleHand = true
+        games = SHGames
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,14 +65,13 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     //Change number of hands on list
-    @IBAction func changeHandHum(_ sender: Any) {
-        singleHand = !singleHand
+    @IBAction func changeHandNum(_ sender: Any) {
         if (singleHand) {
-            games = SHGames
-            singleHand = true
-        } else {
-            games = MHGames
             singleHand = false
+            games = MHGames
+        } else {
+            singleHand = true
+            games = SHGames
         }
         GameNamesTable.reloadData()
     }

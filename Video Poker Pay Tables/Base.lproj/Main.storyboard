@@ -198,7 +198,7 @@
                                 </segments>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="changeHandHum:" destination="D65-3X-0LQ" eventType="valueChanged" id="sXx-MV-cKJ"/>
+                                    <action selector="changeHandNum:" destination="D65-3X-0LQ" eventType="valueChanged" id="GJG-7s-UAm"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
@@ -218,7 +218,6 @@
                     <navigationItem key="navigationItem" id="oGE-w0-Gh0"/>
                     <connections>
                         <outlet property="GameNamesTable" destination="poB-El-kHm" id="PGj-bp-WCZ"/>
-                        <outlet property="handNumSelector" destination="ZiT-tJ-cYU" id="4Rs-md-W8o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="no9-Sm-FLa" userLabel="First Responder" sceneMemberID="firstResponder"/>
