@@ -144,7 +144,7 @@ let f112sf1: genericPayTable = genericPayTable(name: "8/5", pays: "800/100/240/1
 let f112sf2: genericPayTable = genericPayTable(name: "7/5", pays: "800/100/240/120/50/7/5/4/3/1/1", gameFamily: 18)
 
 // USA Poker
-let f113sf0: genericPayTable = genericPayTable(name: "35", pays: "800/200/35/8/8/8/3/1/1", gameFamily: 19)
+let f113sf1: genericPayTable = genericPayTable(name: "35", pays: "800/200/35/8/8/8/3/1/1", gameFamily: 19)
 
 // Black Jack Bonus
 let f114sf0: genericPayTable = genericPayTable(name: "9/7", pays: "800/800/400/160/160/80/50/25/9/7/4/3/1/1", gameFamily: 23)
