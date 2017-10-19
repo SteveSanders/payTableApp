@@ -110,7 +110,13 @@ var SHGamePayTables: [String : [payTable]]? = [
         //USA Poker
         payTable(genericPayTable: f113sf1, payBack: "99.598"),
         //BlackJack Bonus
-        payTable(genericPayTable: f114sf0, payBack: "99.436")
+        payTable(genericPayTable: f114sf0, payBack: "99.436"),
+        //Triple Triple Bonus
+        payTable(genericPayTable: f116sf0, payBack: "99.792"),
+        payTable(genericPayTable: f116sf1, payBack: "98.609"),
+        payTable(genericPayTable: f116sf2, payBack: "97.552"),
+        payTable(genericPayTable: f116sf3, payBack: "96.495"),
+        payTable(genericPayTable: f116sf4, payBack: "95.439"),
     ],
    "Double Pay": [
         // Double Bonus

@@ -154,3 +154,10 @@ let f111sf1: genericPayTable = genericPayTable(name: "10/7", pays: "800/50/240/1
 let f111sf2: genericPayTable = genericPayTable(name: "9/7", pays: "800/50/240/120/75/9/7/4/3/1/1", gameFamily: 17)
 let f111sf3: genericPayTable = genericPayTable(name: "9/6", pays: "800/50/240/120/75/9/6/4/3/1/1", gameFamily: 17)
 let f111sf4: genericPayTable = genericPayTable(name: "9/5", pays: "800/50/240/120/75/9/5/4/3/1/1", gameFamily: 17)
+
+// Triple Triple Bonus
+let f116sf0: genericPayTable = genericPayTable(name: "9/6", pays: "800/50/800/800/400/160/80/50/9/6/3/2/1/1", gameFamily: 116)
+let f116sf1: genericPayTable = genericPayTable(name: "9/5", pays: "800/50/800/800/400/160/80/50/9/5/3/2/1/1", gameFamily: 116)
+let f116sf2: genericPayTable = genericPayTable(name: "8/5", pays: "800/50/800/800/400/160/80/50/8/5/3/2/1/1", gameFamily: 116)
+let f116sf3: genericPayTable = genericPayTable(name: "7/5", pays: "800/50/800/800/400/160/80/50/7/5/3/2/1/1", gameFamily: 116)
+let f116sf4: genericPayTable = genericPayTable(name: "6/5", pays: "800/50/800/800/400/160/80/50/6/5/3/2/1/1", gameFamily: 116)
