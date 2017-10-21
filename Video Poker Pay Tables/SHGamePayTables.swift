@@ -111,12 +111,139 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f113sf1, payBack: "99.598"),
         //BlackJack Bonus
         payTable(genericPayTable: f114sf0, payBack: "99.436"),
+        
+        //October 2017 Additions
+        
         //Triple Triple Bonus
         payTable(genericPayTable: f116sf0, payBack: "99.792"),
         payTable(genericPayTable: f116sf1, payBack: "98.609"),
         payTable(genericPayTable: f116sf2, payBack: "97.552"),
         payTable(genericPayTable: f116sf3, payBack: "96.495"),
         payTable(genericPayTable: f116sf4, payBack: "95.439"),
+        //Aces and Faces Poker
+        payTable(genericPayTable: f100sf0, payBack: "99.26"),
+        payTable(genericPayTable: f100sf1, payBack: "98.1"),
+        payTable(genericPayTable: f100sf2, payBack: "96.96"),
+        payTable(genericPayTable: f100sf3, payBack: "95.82"),
+        //Aces$ Bonus Poker
+        payTable(genericPayTable: f1000sf0, payBack: "99.41"),
+        payTable(genericPayTable: f1000sf1, payBack: "98.26"),
+        payTable(genericPayTable: f1000sf2, payBack: "97.11"),
+        payTable(genericPayTable: f1000sf3, payBack: "96.02"),
+        payTable(genericPayTable: f1000sf4, payBack: "95.36"),
+        //Black Jack Bonus Poker
+        payTable(genericPayTable: f114sf0, payBack: "99.44"),
+        payTable(genericPayTable: f114sf1, payBack: "98.1"),
+        payTable(genericPayTable: f114sf2, payBack: "97.09"),
+        payTable(genericPayTable: f114sf3, payBack: "95.98"),
+        payTable(genericPayTable: f114sf4, payBack: "94.96"),
+        //Deuces Joker
+        payTable(genericPayTable: f1003sf0, payBack: "99.07"),
+        payTable(genericPayTable: f1003sf1, payBack: "97.25"),
+        //Double Aces and Faces Poker
+        payTable(genericPayTable: f101sf4, payBack: "99.24"),
+        payTable(genericPayTable: f101sf1, payBack: "97.97"),
+        payTable(genericPayTable: f101sf2, payBack: "96.54"),
+        payTable(genericPayTable: f101sf3, payBack: "95.44"),
+        //Double Bonus Poker Plus
+        payTable(genericPayTable: f1007sf0, payBack: "100.08"),
+        payTable(genericPayTable: f1007sf1, payBack: "99.76"),
+        payTable(genericPayTable: f1007sf2, payBack: "98.68"),
+        payTable(genericPayTable: f1007sf3, payBack: "97.57"),
+        payTable(genericPayTable: f1007sf4, payBack: "96.49"),
+        payTable(genericPayTable: f1007sf5, payBack: "95.43"),
+        payTable(genericPayTable: f1007sf6, payBack: "94.37"),
+        //Double Double Aces and Faces
+        payTable(genericPayTable: f102sf0, payBack: "99.46"),
+        payTable(genericPayTable: f102sf1, payBack: "98.37"),
+        payTable(genericPayTable: f102sf2, payBack: "97.29"),
+        payTable(genericPayTable: f102sf3, payBack: "96.32"),
+        payTable(genericPayTable: f102sf4, payBack: "95.4"),
+        //Double Joker
+        payTable(genericPayTable: f1003sf0, payBack: "99.97"),
+        payTable(genericPayTable: f1003sf1, payBack: "98.1"),
+        //Loose Deuces
+        payTable(genericPayTable: f104sf0, payBack: "101.6"),
+        payTable(genericPayTable: f104sf1, payBack: "100.97"),
+        payTable(genericPayTable: f104sf2, payBack: "100.15"),
+        payTable(genericPayTable: f104sf3, payBack: "99.19"),
+        //One Eyed Jacks
+        payTable(genericPayTable: f1005sf0, payBack: "100.28"),
+        payTable(genericPayTable: f1005sf1, payBack: "99.98"),
+        payTable(genericPayTable: f1005sf2, payBack: "98.96"),
+        payTable(genericPayTable: f1005sf3, payBack: "97.95"),
+        payTable(genericPayTable: f1005sf4, payBack: "96.97"),
+        payTable(genericPayTable: f1005sf5, payBack: "96.02"),
+        //Shockwave Poker
+        payTable(genericPayTable: f1006sf0, payBack: "99.55"),
+        payTable(genericPayTable: f1006sf0, payBack: "97.34"),
+        payTable(genericPayTable: f1006sf0, payBack: "95.71"),
+        //Super Bonus Deuces Wild
+        payTable(genericPayTable: f105sf0, payBack: "100.13"),
+        payTable(genericPayTable: f105sf1, payBack: "99.67"),
+        payTable(genericPayTable: f105sf2, payBack: "98.84"),
+        payTable(genericPayTable: f105sf3, payBack: "97.87"),
+        payTable(genericPayTable: f105sf4, payBack: "96.94"),
+        payTable(genericPayTable: f105sf5, payBack: "95.61"),
+        //Triple Bonus
+        payTable(genericPayTable: f111sf0, payBack: "99.59"),
+        payTable(genericPayTable: f111sf1, payBack: "98.52"),
+        payTable(genericPayTable: f111sf2, payBack: "97.45"),
+    ],
+    "Double Down Stud": [
+        //6s or Better JB
+        payTable(genericPayTable: f0sf7dds, payBack: "100.19"),
+        payTable(genericPayTable: f0sf6dds, payBack: "99.75"),
+        payTable(genericPayTable: f0sf2dds, payBack: "98.83"),
+        payTable(genericPayTable: f0sf1dds, payBack: "97.83"),
+        
+        //6s or Better QB
+        payTable(genericPayTable: f0sf8dds, payBack: "97.9"),
+        payTable(genericPayTable: f0sf00dds, payBack: "97"),
+        payTable(genericPayTable: f0sf01dds, payBack: "96"),
+        payTable(genericPayTable: f0sf5dds, payBack: "95.55"),
+        payTable(genericPayTable: f0sf4dds, payBack: "93.63"),
+
+        //7s or Better
+        payTable(genericPayTable: f1sf4dds, payBack: "98.76"),
+        payTable(genericPayTable: f1sf5dds, payBack: "97.82"),
+        payTable(genericPayTable: f1sf3dds, payBack: "96.79"),
+        payTable(genericPayTable: f1sf1dds, payBack: "96.37"),
+        payTable(genericPayTable: f1sf2dds, payBack: "95.41"),
+        payTable(genericPayTable: f1sf0dds, payBack: "94.38"),
+        
+        //8s or Better
+        payTable(genericPayTable: f2sf0dds, payBack: "98.76"),
+        payTable(genericPayTable: f2sf2dds, payBack: "95.29"),
+        
+        //One Pair
+        payTable(genericPayTable: f3sf0dds, payBack: "98.73"),
+        payTable(genericPayTable: f3sf00dds, payBack: "97.93"),
+        payTable(genericPayTable: f3sf2dds, payBack: "97.4"),
+        payTable(genericPayTable: f3sf1dds, payBack: "97"),
+        payTable(genericPayTable: f3sf5dds, payBack: "96.6"),
+        payTable(genericPayTable: f3sf3dds, payBack: "95.67"),
+        
+        //Double Double Bonus Poker
+        payTable(genericPayTable: f4sf0dds, payBack: "99.96"),
+        payTable(genericPayTable: f4sf1dds, payBack: "99.07"),
+        payTable(genericPayTable: f4sf2dds, payBack: "98.07"),
+        
+        //Deuces Wild
+        payTable(genericPayTable: f9sf2dds, payBack: "99.62"),
+        payTable(genericPayTable: f9sf1dds, payBack: "97.71"),
+        payTable(genericPayTable: f9sf3dds, payBack: "95.8"),
+        
+        //DeucesWild Bonus
+        payTable(genericPayTable: f10sf0dds, payBack: "99.05"),
+        payTable(genericPayTable: f10sf1dds, payBack: "97.14"),
+        
+        //Joker Poker
+        payTable(genericPayTable: f8sf0dds, payBack: "99.1"),
+        payTable(genericPayTable: f8sf2dds, payBack: "97.76"),
+        payTable(genericPayTable: f8sf1dds, payBack: "96.64"),
+        payTable(genericPayTable: f8sf4dds, payBack: "95.66"),
+        payTable(genericPayTable: f8sf3dds, payBack: "94.31"),
     ],
    "Double Pay": [
         // Double Bonus
@@ -303,6 +430,40 @@ var SHGamePayTables: [String : [payTable]]? = [
         // Triple Bonus Plus
         payTable(genericPayTable: f112sf1, payBack: "99.87"),
         payTable(genericPayTable: f112sf2, payBack: "99.1"),
+    ],
+    "Random Rewards Poker": [
+        // Bonus Poker
+        payTable(genericPayTable: f1sf0, payBack: "99.3"),
+        payTable(genericPayTable: f1sf1, payBack: "98.4"),
+        payTable(genericPayTable: f1sf2, payBack: "97.4"),
+        // Bonus Poker Deluxe
+        payTable(genericPayTable: f2sf0, payBack: "99.9"),
+        payTable(genericPayTable: f2sf1, payBack: "96.9"),
+        payTable(genericPayTable: f2sf2, payBack: "97.8"),
+        payTable(genericPayTable: f2sf3, payBack: "99"),
+        payTable(genericPayTable: f2sf4, payBack: "99.9"),
+        // Double Bonus Poker
+        payTable(genericPayTable: f3sf1, payBack: "99.6"),
+        payTable(genericPayTable: f3sf2, payBack: "98.2"),
+        payTable(genericPayTable: f3sf3, payBack: "99.6"),
+        //Double Double Bonus Poker
+        payTable(genericPayTable: f4sf1, payBack: "100"),
+        payTable(genericPayTable: f4sf2, payBack: "98.9"),
+        payTable(genericPayTable: f4sf3, payBack: "97.9"),
+        payTable(genericPayTable: f4sf4, payBack: "97"),
+        payTable(genericPayTable: f4sf5, payBack: "96.1"),
+        //Jacks or Better
+        payTable(genericPayTable: f0sf0, payBack: "99.8"),
+        payTable(genericPayTable: f0sf1, payBack: "98.8"),
+        payTable(genericPayTable: f0sf3, payBack: "97.8"),
+        payTable(genericPayTable: f0sf4, payBack: "96.9"),
+        payTable(genericPayTable: f0sf5, payBack: "95.8"),
+        //Triple Double Bonus Poker
+        payTable(genericPayTable: f7sf0, payBack: "100.2"),
+        payTable(genericPayTable: f7sf1, payBack: "98.7"),
+        payTable(genericPayTable: f7sf2, payBack: "97.5"),
+        payTable(genericPayTable: f7sf3, payBack: "96.6"),
+        payTable(genericPayTable: f7sf4, payBack: "95.7"),
     ],
     "Super Times Pay": [
         // Jacks or Better

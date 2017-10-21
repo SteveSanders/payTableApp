@@ -59,10 +59,6 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
         let indexPath = self.GameFamilyTable.indexPathForSelectedRow
         guard let selectedRow = indexPath?.row else { return }
         
-//        let gameName = gameNames[selectedRow]
-//        print(gameName)
-//        populateGameObject(gameName: gameName)
-        
         let payTables = currentGame?.sortedPayTables[(currentGame?.gameFamilies[selectedRow])!]
         let destinationViewController = segue.destination as? PayTableTable
         destinationViewController?.payTables = payTables!

@@ -8,10 +8,10 @@
 
 import Foundation
 
-let SHGameNames: [String] = ["Classic Game King", "Double Pay", "Double Super Times Pay", "Dream Card", "Good Times Pay", "Quick Quads", "Super Times Pay", "Ultimate Four of a Kind", "Ultimate X"]
+let SHGameNames: [String] = ["Classic Game King", "Double Down Stud", "Double Pay", "Double Super Times Pay", "Dream Card", "Good Times Pay", "Quick Quads", "Random Rewards Poker", "Super Times Pay", "Ultimate Four of a Kind", "Ultimate X"]
 let MHGameNames: [String] = ["Triple Play Draw Poker", "Five Play Draw Poker", "Ten Play Draw Poker", "Double Super Times Pay", "Good Times Pay", "Hot Roll", "Multi-Strike", "Powerhouse", "Quick Quads", "Spin Poker", "Spin Poker Deluxe",  "Super Times Pay", "Super Times Pay Spin Poker", "Super Triple Play", "Super Triple Play Jackpots", "Ultimate X - 3 Hand", "Ultimate X - 5 Hand", "Ultimate X - 10 Hand", "Ultimate X Poker Bonus Streak - 3 Hand", "Ultimate X Poker Bonus Streak - 5 Hand", "Ultimate X Poker Bonus Streak - 10 Hand", "Wheel Poker - 3 Hand", "Wheel Poker - 5 Hand"]
 
-let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Double Aces and Faces", "Double Joker", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker"]
+let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Double Aces and Faces", "Double Joker", "Loose Deuces", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Double Aces and Faces",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Error"]
 // 0 - 13 same as F number
 // 14 - Joker Poker 2 Pair
 // 15 - Joker Poker 2 Pair - AC
@@ -33,6 +33,14 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 // 31 - One Eyed Jacks
 // 32 - Shockwave Poker
 // 33 - Super Bonus Deuces Poker
+// 34 - Double Bonus Poker Plus
+// 35 - Double Double Aces and Faces
+// Double DownStud Pay Tables
+// 36 - 6s or Better/JB
+// 37 - 6s or Better/QB
+// 38 - 7s or Better
+// 39 - 8s or Better
+// 40 - One Pair
 
 var genericPayTables: [genericPayTable] = []
 var games: [String : game] = [:]
@@ -83,14 +91,18 @@ struct game {
         var imageName = ""
         if range != nil {
             imageName = name.substring(to: (range?.lowerBound)!)
-            print (imageName)
         } else {
             imageName = name
         }
         self.image = imageName + ".png"
     }
-    
     mutating func populateGameFamilies () {
+        // Prints out all game names and index number
+//        for i in 0 ..< gameFamilyNames.count{
+//            print(i, gameFamilyNames[i])
+//        }
+        
+        
         for i in 0 ..< payTables.count {
             let payTable = self.payTables[i]
             let gf = gameFamilyNames[payTable.gameFamily]
