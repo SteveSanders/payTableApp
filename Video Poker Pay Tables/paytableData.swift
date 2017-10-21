@@ -11,7 +11,7 @@ import Foundation
 let SHGameNames: [String] = ["Classic Game King", "Double Pay", "Double Super Times Pay", "Dream Card", "Good Times Pay", "Quick Quads", "Super Times Pay", "Ultimate Four of a Kind", "Ultimate X"]
 let MHGameNames: [String] = ["Triple Play Draw Poker", "Five Play Draw Poker", "Ten Play Draw Poker", "Double Super Times Pay", "Good Times Pay", "Hot Roll", "Multi-Strike", "Powerhouse", "Quick Quads", "Spin Poker", "Spin Poker Deluxe",  "Super Times Pay", "Super Times Pay Spin Poker", "Super Triple Play", "Super Triple Play Jackpots", "Ultimate X - 3 Hand", "Ultimate X - 5 Hand", "Ultimate X - 10 Hand", "Ultimate X Poker Bonus Streak - 3 Hand", "Ultimate X Poker Bonus Streak - 5 Hand", "Ultimate X Poker Bonus Streak - 10 Hand", "Wheel Poker - 3 Hand", "Wheel Poker - 5 Hand"]
 
-let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus"]
+let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Double Aces and Faces", "Double Joker", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker"]
 // 0 - 13 same as F number
 // 14 - Joker Poker 2 Pair
 // 15 - Joker Poker 2 Pair - AC
@@ -24,6 +24,15 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 // 22 - Double Double Aces & Faces
 // 23 - Black Jack Bonus
 // 24 - DW Super Bonus
+// 25 - Triple Triple Bonus
+// 26 - Aces$ Bonus Poker
+// 27 - Deuces Joker
+// 28 - Double Aces and Faces Poker
+// 29 - Double Joker
+// 30 - Loose Deuces
+// 31 - One Eyed Jacks
+// 32 - Shockwave Poker
+// 33 - Super Bonus Deuces Poker
 
 var genericPayTables: [genericPayTable] = []
 var games: [String : game] = [:]
