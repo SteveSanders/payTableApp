@@ -425,6 +425,9 @@ var SHGamePayTables: [String : [payTable]]? = [
         // Triple Double Bonus
         payTable(genericPayTable: f7sf1, payBack: "98.31"),
         payTable(genericPayTable: f7sf2, payBack: "98.21"),
+        payTable(genericPayTable: f7sf5, payBack: "97.52"),
+        payTable(genericPayTable: f7sf01, payBack: "97.39"),
+        payTable(genericPayTable: f7sf6, payBack: "96.59"),
         // Triple Bonus Plus
         payTable(genericPayTable: f112sf1, payBack: "99.87"),
         payTable(genericPayTable: f112sf2, payBack: "99.1"),
