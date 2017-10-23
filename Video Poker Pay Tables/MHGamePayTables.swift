@@ -116,7 +116,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f7sf2, payBack: "97.22"),
         payTable(genericPayTable: f7sf3, payBack: "96.3"),
     ],
-    "Double Pay: Spin": [
+    "Double Pay Spin": [
         // Deuces Wild
         payTable(genericPayTable: f9sf2, payBack: "98.9"),
         payTable(genericPayTable: f9sf3, payBack: "97.7"),
@@ -1007,7 +1007,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f112sf1, payBack: "99.87"),
         payTable(genericPayTable: f112sf2, payBack: "99.1"),
     ],
-    "Random Rewards Poker": [
+    "Random Rewards": [
         // Bonus Poker
         payTable(genericPayTable: f1sf0, payBack: "99.3"),
         payTable(genericPayTable: f1sf1, payBack: "98.4"),

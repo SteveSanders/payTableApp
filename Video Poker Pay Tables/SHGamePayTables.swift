@@ -425,7 +425,7 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f7sf1, payBack: "98.31"),
         payTable(genericPayTable: f7sf2, payBack: "98.21"),
     ],
-    "Random Rewards Poker": [
+    "Random Rewards": [
         // Bonus Poker
         payTable(genericPayTable: f1sf0, payBack: "99.3"),
         payTable(genericPayTable: f1sf1, payBack: "98.4"),
