@@ -540,7 +540,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f13sf2, payBack: "97.441"),
         payTable(genericPayTable: f13sf3, payBack: "96.386"),
     ],
-    "Five Play Multi-Strike Poker": [
+    "Multi-Strike Poker - Five Play": [
         //Bonus poker
         payTable(genericPayTable: f1sf0, payBack: "99.375"),
         payTable(genericPayTable: f1sf1, payBack: "98.224"),
@@ -1015,7 +1015,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f112sf1, payBack: "99.87"),
         payTable(genericPayTable: f112sf2, payBack: "99.1"),
     ],
-    "Random Rewards Poker": [
+    "Random Rewards": [
         // Bonus Poker
         payTable(genericPayTable: f1sf0, payBack: "99.3"),
         payTable(genericPayTable: f1sf1, payBack: "98.4"),
