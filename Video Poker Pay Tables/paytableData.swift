@@ -12,7 +12,7 @@ let SHGameNames: [String] = ["Classic Game King", "Double Down Stud", "Double Pa
 
 let MHGameNames: [String] = ["Ace Invaders", "Big Split", "Big Times Draw Poker", "Double Down Stud",  "Double Pay", "Double Pay Spin", "Double Super Times Pay", "Dream Card", "Fifty Play Draw Poker", "Fifty Play with Quick Quads", "Fifty Play with Super Times Pay", "Five Aces", "Five Play Draw Poker", "Good Times Pay", "Hot Roll", "Hundred Play Draw Poker", "Hundred Play with Quick Quads", "Hundred Play with Super Times Pay", "Multi-Strike", "Multi-Strike - Five Hand", "Multi-Strike with Super Times Pay", "Powerhouse", "Quick Quads", "Random Rewards", "Spin Poker", "Spin Poker Deluxe", "Spin with Dream Card",  "Super Times Pay", "Super Times Pay Spin Poker", "Super Triple Play", "Super Triple Play Jackpots", "Ten Play Draw Poker", "Triple Spin Poker", "Triple Play Draw Poker", "Ultimate X - 3 Hand", "Ultimate X - 5 Hand", "Ultimate X - 10 Hand", "Ultimate X Poker Bonus Streak - 3 Hand", "Ultimate X Poker Bonus Streak - 5 Hand", "Ultimate X Poker Bonus Streak - 10 Hand", "Wheel Poker", "Wheel Poker Deluxe - 3 Hand", "Wheel Poker Deluxe - 5 Hand", "Wheel Poker with Quick Quads"]
 
-let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Ace Invaders", "Double Joker", "Loose Deuces", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Double Aces and Faces",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Ace Invaders", "Error"]
+let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Ace Invaders", "Double Joker", "Loose Deuces", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Deuces",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Ace Invaders", "Error"]
 // 0 - 13 same as F number
 // 14 - Joker Poker 2 Pair
 // 15 - Joker Poker 2 Pair - AC
@@ -24,7 +24,7 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 // 21 - Double Aces & Faces
 // 22 - Double Double Aces & Faces
 // 23 - Black Jack Bonus
-// 24 - DW Super Bonus
+// 24 - 
 // 25 - Triple Triple Bonus
 // 26 - Aces$ Bonus Poker
 // 27 - Deuces Joker
@@ -35,7 +35,7 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 // 32 - Shockwave Poker
 // 33 - Super Bonus Deuces Poker
 // 34 - Double Bonus Poker Plus
-// 35 - Double Double Aces and Faces
+// 35 - Double Deuces
 // Double DownStud Pay Tables
 // 36 - 6s or Better/JB
 // 37 - 6s or Better/QB
