@@ -144,7 +144,7 @@ let f9sf8: genericPayTable = genericPayTable(name: "25/15/11/4/4/3", pays: "800/
 let f9sf9: genericPayTable = genericPayTable(name: "20/12/9/5/3/2", pays: "800/200/20/12/9/5/3/2/2/1", gameFamily: 9)
 let f9sf10: genericPayTable = genericPayTable(name: "600/20/10/8/4/3/2", pays: "800/600/20/10/8/4/3/2/2/1", gameFamily: 9)
 let f9sf11: genericPayTable = genericPayTable(name: "25/15/8/4/4/3", pays: "800/200/25/15/8/4/4/3/2/1", gameFamily: 9)
-let f9sf02: genericPayTable = genericPayTable(name: "20/10/8/4/3", pays: "800/200/20/10/8/4/3/3/2/1", gameFamily: 9)
+//let f9sf02: genericPayTable = genericPayTable(name: "20/10/8/4/3", pays: "800/200/20/10/8/4/3/3/2/1", gameFamily: 9)
 //Used in Big Times Draw Poker
 let f9sf01: genericPayTable = genericPayTable(name: "25/16/9/4/4/3", pays: "800/400/200/25/16/9/4/4/3/2/1", gameFamily: 9)
 let f9sf300: genericPayTable = genericPayTable(name: "20/12/10/4/4/3 - 8X Multi", pays: "800/200/20/12/10/4/4/3/2/1", gameFamily: 9)
