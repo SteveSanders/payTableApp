@@ -46,13 +46,14 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f9sf10, payBack: "99.92"),
         payTable(genericPayTable: f9sf1, payBack: "99.72"),
         // payTable(genericPayTable: f9sf9, payBack: "98.938"),
+
         payTable(genericPayTable: f9sf2, payBack: "98.91"),
         payTable(genericPayTable: f9sf3, payBack: "97.59"),
         payTable(genericPayTable: f9sf4, payBack: "97.06"),
         payTable(genericPayTable: f9sf5, payBack: "96.77"),
         payTable(genericPayTable: f9sf6, payBack: "95.97"),
         payTable(genericPayTable: f9sf7, payBack: "94.82"),
-        // Mike Add 20/10/8/4/3 91.42%,
+        payTable(genericPayTable: f9sf02, payBack: "91.42"),
         // Deuces Wild Bonus
         payTable(genericPayTable: f10sf0, payBack: "99.46"),
         payTable(genericPayTable: f10sf1, payBack: "98.80"),
@@ -150,7 +151,6 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f5sf1, payBack: "98.86"),
         payTable(genericPayTable: f5sf2, payBack: "97.79"),
         //Super Bonus Deuces Wild
-        // Mike Split into 2 tabs for some reason on iPhone
         payTable(genericPayTable: f105sf0, payBack: "100.13"),
         payTable(genericPayTable: f105sf1, payBack: "99.67"),
         payTable(genericPayTable: f105sf2, payBack: "98.84"),
@@ -299,7 +299,6 @@ var SHGamePayTables: [String : [payTable]]? = [
         // Jacks or Better
         payTable(genericPayTable: f0sf0, payBack: "100.05"),
         payTable(genericPayTable: f0sf1, payBack: "98.95"),
-        // Mike Change 8/6 to 8/5 (Ignore %age)
         payTable(genericPayTable: f0sf3, payBack: "97.79"),
         payTable(genericPayTable: f0sf4, payBack: "96.64"),
         payTable(genericPayTable: f0sf5, payBack: "95.48"),
