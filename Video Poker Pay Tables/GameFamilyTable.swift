@@ -34,9 +34,15 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
         return cell
     }
     
+//    func sortGameFamilies (_: [gameFamilies] -> [gameFamilies]) {
+//        var sortedGameFamiles = gameFamilies.sorted(by: { $0.})
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
+//        print( "----- NOT ALPHABETICAL ----")
+//        print(currentGame?.sortedPayTables);
         
         // Customise Table
         GameFamilyTable.layer.cornerRadius = 10
