@@ -53,7 +53,7 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f9sf5, payBack: 96.77),
         payTable(genericPayTable: f9sf6, payBack: 95.97),
         payTable(genericPayTable: f9sf7, payBack: 94.82),
-        payTable(genericPayTable: f9sf02, payBack: 91.42),
+        payTable(genericPayTable: f9sf08, payBack: 91.42),
         // Deuces Wild Bonus
         payTable(genericPayTable: f10sf0, payBack: 99.46),
         payTable(genericPayTable: f10sf1, payBack: 98.80),
