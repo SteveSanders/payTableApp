@@ -109,18 +109,18 @@ let f7sf6: genericPayTable = genericPayTable(name: "250 - 8/5", pays: "250/800/4
 let f7sf01: genericPayTable = genericPayTable(name: "250 - 9/5", pays: "250/800/400/160/80/50/50/9/5/4/2/1/1", gameFamily: 7)
 
 // Joker Poker
-let f8sf0: genericPayTable = genericPayTable(name: "800/200/100/50/20/7/5/3/2/1/1-Kings", pays: "800/200/100/50/20/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf1: genericPayTable = genericPayTable(name: "940/200/100/50/20/7/5/3/2/1/1-Kings", pays: "940/200/100/50/20/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf2: genericPayTable = genericPayTable(name: "940/200/100/50/17/7/5/3/2/1/1-Kings", pays: "940/200/100/50/17/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf3: genericPayTable = genericPayTable(name: "940/200/100/50/18/7/5/3/2/1/1-Kings", pays: "940/200/100/50/18/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf4: genericPayTable = genericPayTable(name: "940/200/100/50/15/7/5/3/2/1/1-Kings", pays: "940/200/100/50/15/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf5: genericPayTable = genericPayTable(name: "800/200/100/50/15/7/5/3/2/1/1-Kings", pays: "800/200/100/50/15/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf6: genericPayTable = genericPayTable(name: "800/200/100/40/20/5/4/3/2/1/1-Kings", pays: "800/200/100/40/20/5/4/3/2/1/1-Kings", gameFamily: 8)
-let f8sf8: genericPayTable = genericPayTable(name: "800/200/100/50/20/8/6/3/2/1/1-Aces", pays: "800/200/100/50/20/8/6/3/2/1/1-Aces", gameFamily: 8)
-let f8sf9: genericPayTable = genericPayTable(name: "800/200/100/50/18/7/5/3/2/1/1-Kings", pays: "800/200/100/50/18/7/5/3/2/1/1-Kings", gameFamily: 8)
-let f8sf10: genericPayTable = genericPayTable(name: "800/200/100/50/17/7/5/3/2/1/1-Kings", pays: "800/200/100/50/17/7/5/3/2/1/1-Kings", gameFamily: 8)
+let f8sf0: genericPayTable = genericPayTable(name: "800/200/100/50/20/7/5/3/2/1/1", pays: "800/200/100/50/20/7/5/3/2/1/1", gameFamily: 8)
+let f8sf1: genericPayTable = genericPayTable(name: "940/200/100/50/20/7/5/3/2/1/1", pays: "940/200/100/50/20/7/5/3/2/1/1", gameFamily: 8)
+let f8sf2: genericPayTable = genericPayTable(name: "940/200/100/50/17/7/5/3/2/1/1", pays: "940/200/100/50/17/7/5/3/2/1/1", gameFamily: 8)
+let f8sf3: genericPayTable = genericPayTable(name: "940/200/100/50/18/7/5/3/2/1/1", pays: "940/200/100/50/18/7/5/3/2/1/1", gameFamily: 8)
+let f8sf4: genericPayTable = genericPayTable(name: "940/200/100/50/15/7/5/3/2/1/1", pays: "940/200/100/50/15/7/5/3/2/1/1", gameFamily: 8)
+let f8sf5: genericPayTable = genericPayTable(name: "800/200/100/50/15/7/5/3/2/1/1", pays: "800/200/100/50/15/7/5/3/2/1/1", gameFamily: 8)
+let f8sf6: genericPayTable = genericPayTable(name: "800/200/100/40/20/5/4/3/2/1/1", pays: "800/200/100/40/20/5/4/3/2/1/1", gameFamily: 8)
+let f8sf8: genericPayTable = genericPayTable(name: "800/200/100/50/20/8/6/3/2/1/1", pays: "800/200/100/50/20/8/6/3/2/1/1", gameFamily: 24)
+let f8sf9: genericPayTable = genericPayTable(name: "800/200/100/50/18/7/5/3/2/1/1", pays: "800/200/100/50/18/7/5/3/2/1/1", gameFamily: 8)
+let f8sf10: genericPayTable = genericPayTable(name: "800/200/100/50/17/7/5/3/2/1/1-Kings", pays: "800/200/100/50/17/7/5/3/2/1/1", gameFamily: 8)
 let f8sf11: genericPayTable = genericPayTable(name: "800/200/100/50/16/7/5/3/2/1/1", pays: "800/200/100/50/16/7/5/3/2/1/1", gameFamily: 8)
-let f8sf01: genericPayTable = genericPayTable(name: "500/200/100/50/20/6/5/3/2/1/1-Kings", pays: "500/200/100/50/20/6/5/3/2/1/1", gameFamily: 8)
+let f8sf01: genericPayTable = genericPayTable(name: "500/200/100/50/20/6/5/3/2/1/1-Kings", pays: "500/200/100/50/20/6/5/3/2/1/1", gameFamily: 24)
 
 
 //Big Split

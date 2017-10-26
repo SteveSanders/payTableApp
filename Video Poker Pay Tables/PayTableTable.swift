@@ -31,6 +31,23 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
         return cell
     }
     
+    func sortPaytables (payTables: [payTable]) -> [payTable] {
+        var newArray: [payTable] = []
+        for payTable in payTables {
+            var added: Bool = false
+            for sortedPayTable in 0 ..< newArray.count {
+                if payTable.payBack < newArray[sortedPayTable].payBack && !added {
+                    newArray.insert(payTable, at: sortedPayTable)
+                    added = true
+                }
+            }
+            if !added {
+                newArray.append(payTable);
+            }
+        }
+        return newArray
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         if singleHand {
@@ -39,6 +56,8 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
             glassImage.image = UIImage( named: (currentGame?.image)!)
         }
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
+        
+        payTables = sortPaytables(payTables: payTables);
         
         // Customise Table
         PayTableTable.layer.cornerRadius = 10

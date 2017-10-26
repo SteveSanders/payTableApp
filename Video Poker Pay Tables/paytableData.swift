@@ -8,11 +8,11 @@
 
 import Foundation
 
-let SHGameNames: [String] = ["Classic Game King", "Double Down Stud", "Double Pay", "Double Super Times Pay", "Dream Card", "Good Times Pay", "Quick Quads", "Random Rewards", "Super Times Pay", "Ultimate Four of a Kind", "Ultimate X"]
+let SHGameNames: [String] = ["Classic Single Hand (Game King)", "Double Down Stud Poker", "Double Pay Poker", "Double Super Times Pay Poker", "Dream Card Poker", "Good Times Pay Poker", "Quick Quads Poker", "Random Rewards Poker", "Super Times Pay Poker", "Ultimate Four of a Kind Poker", "Ultimate X Poker"]
 
-let MHGameNames: [String] = ["Ace Invaders", "Big Split", "Big Times Draw Poker", "Double Down Stud",  "Double Pay", "Double Pay Spin", "Double Super Times Pay", "Dream Card", "Fifty Play Draw Poker", "Fifty Play with Quick Quads", "Fifty Play with Super Times Pay", "Five Aces", "Five Play Draw Poker", "Good Times Pay", "Hot Roll", "Hundred Play Draw Poker", "Hundred Play with Quick Quads", "Hundred Play with Super Times Pay", "Multi-Strike", "Multi-Strike - Five Hand", "Multi-Strike with Super Times Pay", "Powerhouse", "Quick Quads", "Random Rewards", "Spin Poker", "Spin Poker Deluxe", "Spin with Dream Card",  "Super Times Pay", "Super Times Pay Spin Poker", "Super Triple Play", "Super Triple Play Jackpots", "Ten Play Draw Poker", "Triple Play Draw Poker",  "Triple Spin Poker", "Ultimate X - 3 Hand", "Ultimate X - 5 Hand", "Ultimate X - 10 Hand", "Ultimate X Poker Bonus Streak - 3 Hand", "Ultimate X Poker Bonus Streak - 5 Hand", "Ultimate X Poker Bonus Streak - 10 Hand", "Wheel Poker", "Wheel Poker Deluxe - 3 Hand", "Wheel Poker Deluxe - 5 Hand", "Wheel Poker with Quick Quads"]
+let MHGameNames: [String] = ["Ace Invaders", "Big Split Poker", "Big Times Draw Poker", "Double Down Stud Poker",  "Double Pay Poker", "Double Pay Poker: Spin", "Double Super Times Pay Poker", "Dream Card Poker", "Fifty Play Draw Poker", "Fifty Play with Quick Quads", "Fifty Play with Super Times Pay", "Five Aces Poker", "Five Play Draw Poker", "Good Times Pay Poker", "Hot Roll Poker", "Hundred Play Draw Poker", "Hundred Play with Quick Quads", "Hundred Play with Super Times Pay", "Multi-Strike Poker", "Multi-Strike - Five Hand", "Multi-Strike Poker with Super Times Pay", "Powerhouse Poker", "Quick Quads Poker", "Random Rewards Poker", "Spin Poker", "Spin Poker Deluxe", "Spin Poker with Dream Card",  "Super Times Pay Poker", "Super Times Pay Spin Poker", "Super Triple Play Draw Poker", "Super Triple Play Jackpots Poker", "Ten Play Draw Poker", "Triple Play Draw Poker",  "Triple Spin Poker", "Ultimate X Poker - 3 Hand", "Ultimate X Poker - 5 Hand", "Ultimate X Poker - 10 Hand", "UX Poker Bonus Streak - 3 Hand", "UX Poker Bonus Streak - 5 Hand", "UX Poker Bonus Streak - 10 Hand", "Wheel Poker", "Wheel Poker Deluxe - 3 Play", "Wheel Poker Deluxe - 5 Play", "Wheel Poker with Quick Quads"]
 
-let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Deuces Wild Super Bonus", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Ace Invaders", "Double Joker", "Loose Deuces", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Deuces",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Ace Invaders", "Error"]
+let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker Kings or Better", "Deuces Wild", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair - AC", "Royal Aces Bonus", "Triple Bonus", "Triple Bonus Plus", "USA", "Aces & Faces", "Double Aces & Faces", "Double Double Aces & Faces", "Black Jack Bonus", "Joker Poker Aces or Better", "Triple Triple Bonus", "Aces$ Bonus Poker", "Deuces Joker", "Ace Invaders", "Double Joker", "Loose Deuces", "One Eyed Jacks", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Deuces",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Ace Invaders", "Error"]
 // 0 - 13 same as F number
 // 14 - Joker Poker 2 Pair
 // 15 - Joker Poker 2 Pair - AC
@@ -24,7 +24,7 @@ let gameFamilyNames: [String] = ["Jacks or Better", "Bonus Poker", "Bonus Poker 
 // 21 - Double Aces & Faces
 // 22 - Double Double Aces & Faces
 // 23 - Black Jack Bonus
-// 24 - 
+// 24 - Joker Poker Aces or Better
 // 25 - Triple Triple Bonus
 // 26 - Aces$ Bonus Poker
 // 27 - Deuces Joker
@@ -63,12 +63,12 @@ struct genericPayTable {
 }
 
 struct payTable {
-    let payBack: String
+    let payBack: Double
     let name: String
     let pays: String
     let gameFamily: Int
     
-    init(genericPayTable: genericPayTable, payBack: String) {
+    init(genericPayTable: genericPayTable, payBack: Double) {
         self.payBack = payBack
         self.name = genericPayTable.name
         self.pays = genericPayTable.pays
@@ -102,7 +102,7 @@ struct game {
 //        for i in 0 ..< gameFamilyNames.count{
 //            print(i, gameFamilyNames[i])
 //        }
-        
+//
         
         for i in 0 ..< payTables.count {
             let payTable = self.payTables[i]
