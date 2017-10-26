@@ -10,7 +10,7 @@ import Foundation
 
 let SHGameNames: [String] = ["Classic Single Hand (Game King)", "Double Down Stud Poker", "Double Pay Poker", "Double Super Times Pay Poker", "Dream Card Poker", "Good Times Pay Poker", "Quick Quads Poker", "Random Rewards Poker", "Super Times Pay Poker", "Ultimate Four of a Kind Poker", "Ultimate X Poker"]
 
-let MHGameNames: [String] = ["Ace Invaders", "Big Split Poker", "Big Times Draw Poker", "Double Down Stud Poker",  "Double Pay Poker", "Double Pay Poker: Spin", "Double Super Times Pay Poker", "Dream Card Poker", "Fifty Play Draw Poker", "Fifty Play with Quick Quads", "Fifty Play with Super Times Pay", "Five Aces Poker", "Five Play Draw Poker", "Good Times Pay Poker", "Hot Roll Poker", "Hundred Play Draw Poker", "Hundred Play with Quick Quads", "Hundred Play with Super Times Pay", "Multi-Strike Poker", "Multi-Strike - Five Hand", "Multi-Strike Poker with Super Times Pay", "Powerhouse Poker", "Quick Quads Poker", "Random Rewards Poker", "Spin Poker", "Spin Poker Deluxe", "Spin Poker with Dream Card",  "Super Times Pay Poker", "Super Times Pay Spin Poker", "Super Triple Play Draw Poker", "Super Triple Play Jackpots Poker", "Ten Play Draw Poker", "Triple Play Draw Poker",  "Triple Spin Poker", "Ultimate X Poker - 3 Hand", "Ultimate X Poker - 5 Hand", "Ultimate X Poker - 10 Hand", "UX Poker Bonus Streak - 3 Hand", "UX Poker Bonus Streak - 5 Hand", "UX Poker Bonus Streak - 10 Hand", "Wheel Poker", "Wheel Poker Deluxe - 3 Play", "Wheel Poker Deluxe - 5 Play", "Wheel Poker with Quick Quads"]
+let MHGameNames: [String] = ["Ace Invaders", "Big Split Poker", "Big Times Draw Poker", "Double Down Stud Poker",  "Double Pay Poker", "Double Pay Poker: Spin", "Double Super Times Pay Poker", "Dream Card Poker", "Fifty Play Draw Poker", "Fifty Play with Quick Quads", "Fifty Play with Super Times Pay", "Five Aces Poker", "Five Play Multi-Strike Poker", "Five Play Draw Poker", "Good Times Pay Poker", "Hot Roll Poker", "Hundred Play Draw Poker", "Hundred Play with Quick Quads", "Hundred Play with Super Times Pay", "Multi-Strike Poker", "Multi-Strike Poker with Super Times Pay", "Powerhouse Poker", "Quick Quads Poker", "Random Rewards Poker", "Spin Poker", "Spin Poker Deluxe", "Spin Poker with Dream Card",  "Super Times Pay Poker", "Super Times Pay Spin Poker", "Super Triple Play Draw Poker", "Super Triple Play Jackpots Poker", "Ten Play Draw Poker", "Triple Play Draw Poker",  "Triple Spin Poker", "Ultimate X Poker - 3 Hand", "Ultimate X Poker - 5 Hand", "Ultimate X Poker - 10 Hand", "UX Poker Bonus Streak - 3 Hand", "UX Poker Bonus Streak - 5 Hand", "UX Poker Bonus Streak - 10 Hand", "Wheel Poker", "Wheel Poker Deluxe - 3 Play", "Wheel Poker Deluxe - 5 Play", "Wheel Poker with Quick Quads"]
 
 let gameFamilyNames: [String] = ["Jacks or Better Poker", "Bonus Poker", "Bonus Poker Deluxe", "Double Bonus Poker", "Double Double Bonus Poker", "Super Aces Bonus Poker", "Super Double Bonus Poker", "Triple Double Bonus Poker", "Joker Poker Kings or Better", "Deuces Wild Poker", "Deuces Wild Bonus Poker", "Double Bonus Deuces Wild Poker", "Super Double Double Bonus Poker", "White Hot Aces Poker", "Joker Poker 2 Pair", "Joker Poker 2 Pair", "Royal Aces Bonus Poker", "Triple Bonus Poker", "Triple Bonus Plus Poker", "USA Poker", "Aces & Faces Poker", "Double Aces & Faces Poker", "Double Double Aces & Faces Poker", "Black Jack Bonus Poker", "Joker Poker Aces or Better", "Triple Triple Bonus Poker", "Aces$ Bonus Poker", "Deuces Joker Poker", "Ace Invaders Poker", "Double Joker Poker", "Loose Deuces Poker", "One Eyed Jacks Poker", "Shockwave Poker", "Super Bonus Deuces Poker", "Double Bonus Poker Plus", "Double Deuces Poker",  "6s or Better/JB", "6s or Better/QB", "7s or Better", "8s or Better", "One Pair", "Ace Invaders", "Error"]
 // 0 - 13 same as F number
@@ -90,13 +90,20 @@ struct game {
         self.payTables = []
         self.sortedPayTables = [:]
         
-        let range = name.range(of:" - ")
+        var range = name.range(of:" - ")
         var imageName = ""
         if range != nil {
             imageName = name.substring(to: (range?.lowerBound)!)
         } else {
             imageName = name
         }
+        
+        range = nil
+        range = name.range(of:":")
+        if range != nil {
+            imageName = name.substring(to: (range?.lowerBound)!)
+        }
+        
         self.image = imageName + ".png"
     }
     mutating func populateGameFamilies () {
