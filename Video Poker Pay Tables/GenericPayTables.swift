@@ -319,7 +319,7 @@ let f1007sf6: genericPayTable = genericPayTable(name: "6/5", pays: "250/50/400/1
 let f1008sf0: genericPayTable = genericPayTable(name: "16/11", pays: "250/400/25/16/11/4/3/2/2/1", gameFamily: 35)
 let f1008sf1: genericPayTable = genericPayTable(name: "15/10", pays: "250/400/25/15/10/4/3/2/2/1", gameFamily: 35)
 
-//Doubel Down Stud pay Tables
+//Double Down Stud pay Tables
 // Double Down Stud 6s or Better JB
 let f0sf7dds: genericPayTable = genericPayTable(name: "1000/400/100/12/9/6/4/3/2/1", pays: "1000/400/100/12/9/6/4/3/2/1", gameFamily: 36)
 let f0sf6dds: genericPayTable = genericPayTable(name: "1000/200/50/15/10/8/4/3/2/1", pays: "1000/200/50/15/10/8/4/3/2/1", gameFamily: 36)
