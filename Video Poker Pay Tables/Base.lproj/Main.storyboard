@@ -52,7 +52,7 @@
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay Table Returns" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOv-fJ-bJM">
-                                        <rect key="frame" x="98.5" y="43" width="146" height="22"/>
+                                        <rect key="frame" x="10" y="43" width="323" height="22"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -99,7 +99,7 @@
                                     <constraint firstItem="dOv-fJ-bJM" firstAttribute="centerX" secondItem="D8x-cR-Ar9" secondAttribute="centerX" id="XHy-ll-c0j"/>
                                     <constraint firstItem="zUH-56-3ea" firstAttribute="centerX" secondItem="D8x-cR-Ar9" secondAttribute="centerX" id="g0A-Vk-mSa"/>
                                     <constraint firstItem="zUH-56-3ea" firstAttribute="top" secondItem="ReY-9M-Hde" secondAttribute="bottom" constant="20" id="iEx-qj-8kK"/>
-                                    <constraint firstItem="dOv-fJ-bJM" firstAttribute="leading" secondItem="D8x-cR-Ar9" secondAttribute="leading" constant="98.5" id="lCN-o7-tRq"/>
+                                    <constraint firstItem="dOv-fJ-bJM" firstAttribute="leading" secondItem="D8x-cR-Ar9" secondAttribute="leading" constant="10" id="lCN-o7-tRq"/>
                                     <constraint firstAttribute="bottom" secondItem="zUH-56-3ea" secondAttribute="bottom" constant="20" id="muC-tu-4gh"/>
                                     <constraint firstItem="ReY-9M-Hde" firstAttribute="leading" secondItem="D8x-cR-Ar9" secondAttribute="leading" constant="15" id="svT-2o-DAr"/>
                                     <constraint firstItem="oRk-n0-PWT" firstAttribute="top" secondItem="D8x-cR-Ar9" secondAttribute="top" constant="8" id="ugP-rR-LnQ"/>
