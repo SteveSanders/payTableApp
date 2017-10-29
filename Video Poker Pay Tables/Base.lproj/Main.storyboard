@@ -298,7 +298,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LpW-ou-n6x">
-                                <rect key="frame" x="16" y="254" width="343" height="324"/>
+                                <rect key="frame" x="16" y="254" width="343" height="277"/>
                                 <color key="backgroundColor" white="1" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -363,19 +363,29 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the row to see full pay table, scroll down for more." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOl-e1-28s">
+                                <rect key="frame" x="20" y="541" width="336" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99194461109999998" green="0.99615627529999995" blue="0.99600595240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cld-zt-JUu" firstAttribute="top" secondItem="rxg-a0-xlS" secondAttribute="bottom" constant="20" id="Ctp-U2-bl2"/>
-                            <constraint firstItem="LpW-ou-n6x" firstAttribute="bottom" secondItem="2JP-u6-T6n" secondAttribute="top" constant="-25" id="EQE-KO-cZB"/>
                             <constraint firstItem="rxg-a0-xlS" firstAttribute="centerX" secondItem="Jvg-Z4-Els" secondAttribute="centerX" id="Ibz-qQ-8ol"/>
                             <constraint firstAttribute="leadingMargin" secondItem="LpW-ou-n6x" secondAttribute="leading" id="IuM-Io-2no"/>
+                            <constraint firstItem="rOl-e1-28s" firstAttribute="centerX" secondItem="Jvg-Z4-Els" secondAttribute="centerX" id="MtJ-mq-XNv"/>
                             <constraint firstItem="LpW-ou-n6x" firstAttribute="top" secondItem="cld-zt-JUu" secondAttribute="bottom" constant="20" id="Mvh-Ep-Jmb"/>
                             <constraint firstItem="rxg-a0-xlS" firstAttribute="leading" secondItem="Jvg-Z4-Els" secondAttribute="leadingMargin" constant="50" id="UkE-w3-814"/>
+                            <constraint firstItem="rOl-e1-28s" firstAttribute="leading" secondItem="Jvg-Z4-Els" secondAttribute="leading" constant="20" id="VQ9-C1-gZt"/>
                             <constraint firstItem="HUA-Ly-DsD" firstAttribute="top" secondItem="COk-f8-Rx7" secondAttribute="bottom" constant="20" id="fFU-5y-TTv"/>
                             <constraint firstItem="HUA-Ly-DsD" firstAttribute="centerX" secondItem="Jvg-Z4-Els" secondAttribute="centerX" id="g7p-eV-BjK"/>
                             <constraint firstItem="rxg-a0-xlS" firstAttribute="top" secondItem="COk-f8-Rx7" secondAttribute="bottom" constant="60" id="huw-WN-I15"/>
+                            <constraint firstItem="rOl-e1-28s" firstAttribute="top" secondItem="LpW-ou-n6x" secondAttribute="bottom" constant="10" id="jg8-To-bzo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LpW-ou-n6x" secondAttribute="trailing" id="ryn-37-KLt"/>
+                            <constraint firstItem="2JP-u6-T6n" firstAttribute="top" secondItem="rOl-e1-28s" secondAttribute="bottom" constant="20" id="wyI-go-XmV"/>
                             <constraint firstItem="cld-zt-JUu" firstAttribute="centerX" secondItem="Jvg-Z4-Els" secondAttribute="centerX" id="yXr-6d-x1T"/>
                         </constraints>
                     </view>
