@@ -27,7 +27,8 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "PayTableCell", for: indexPath) as! PayTableCell
         cell.nameField?.text = payTables[indexPath.row].name;
-        cell.returnField?.text = "\(payTables[indexPath.row].payBack)%";
+        let text = String(format: "%.2f", arguments: [payTables[indexPath.row].payBack])
+        cell.returnField?.text = "\(text)%";
         return cell
     }
     

@@ -57,16 +57,16 @@
 		AA8C0A751FA1DC19003400DC /* Super Triple Play Jackpots Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A741FA1DC19003400DC /* Super Triple Play Jackpots Poker.png */; };
 		AA8C0A791FA1DC2C003400DC /* UX Poker Bonus Streak.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A781FA1DC2C003400DC /* UX Poker Bonus Streak.png */; };
 		AA8C0A861FA1DC71003400DC /* SHDream Card Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A7B1FA1DC6F003400DC /* SHDream Card Poker.png */; };
-		AA8C0A871FA1DC71003400DC /* SHUltimate Four of a Kind Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A7C1FA1DC70003400DC /* SHUltimate Four of a Kind Poker.png */; };
 		AA8C0A881FA1DC71003400DC /* SHQuick Quads Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A7D1FA1DC70003400DC /* SHQuick Quads Poker.png */; };
 		AA8C0A891FA1DC71003400DC /* SHGood Times Pay Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A7E1FA1DC70003400DC /* SHGood Times Pay Poker.png */; };
 		AA8C0A8A1FA1DC71003400DC /* SHDouble Super Times Pay Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A7F1FA1DC70003400DC /* SHDouble Super Times Pay Poker.png */; };
-		AA8C0A8B1FA1DC71003400DC /* SHRandom Rewards Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A801FA1DC70003400DC /* SHRandom Rewards Poker.png */; };
 		AA8C0A8C1FA1DC71003400DC /* SHSuper Times Pay Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A811FA1DC70003400DC /* SHSuper Times Pay Poker.png */; };
 		AA8C0A8D1FA1DC71003400DC /* SHUltimate X Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A821FA1DC71003400DC /* SHUltimate X Poker.png */; };
 		AA8C0A8E1FA1DC71003400DC /* SHDouble Pay Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A831FA1DC71003400DC /* SHDouble Pay Poker.png */; };
 		AA8C0A8F1FA1DC71003400DC /* SHDouble Down Stud Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A841FA1DC71003400DC /* SHDouble Down Stud Poker.png */; };
 		AA8C0A911FA1DC88003400DC /* SHClassic Single Hand (Game King).png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A901FA1DC88003400DC /* SHClassic Single Hand (Game King).png */; };
+		AA9984E81FA7630000589E31 /* SHRandom Rewards Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9984E71FA7630000589E31 /* SHRandom Rewards Poker.png */; };
+		AA9984EA1FA763BA00589E31 /* SHUltimate 4 of a Kind Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9984E91FA763BA00589E31 /* SHUltimate 4 of a Kind Poker.png */; };
 		AAC160141EFD736300B81DA1 /* MHGamePayTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC160131EFD736300B81DA1 /* MHGamePayTables.swift */; };
 		AAE143F71F0697650043AFF2 /* Wheel Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE143F61F0697650043AFF2 /* Wheel Poker.png */; };
 		AAE143FB1F0697DE0043AFF2 /* Spin Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE143FA1F0697DE0043AFF2 /* Spin Poker.png */; };
@@ -130,16 +130,16 @@
 		AA8C0A741FA1DC19003400DC /* Super Triple Play Jackpots Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Super Triple Play Jackpots Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Super Triple Play Jackpots Poker.png"; sourceTree = "<group>"; };
 		AA8C0A781FA1DC2C003400DC /* UX Poker Bonus Streak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UX Poker Bonus Streak.png"; path = "Video Poker Pay Tables/Images/glassIcons/UX Poker Bonus Streak.png"; sourceTree = "<group>"; };
 		AA8C0A7B1FA1DC6F003400DC /* SHDream Card Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHDream Card Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHDream Card Poker.png"; sourceTree = "<group>"; };
-		AA8C0A7C1FA1DC70003400DC /* SHUltimate Four of a Kind Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHUltimate Four of a Kind Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHUltimate Four of a Kind Poker.png"; sourceTree = "<group>"; };
 		AA8C0A7D1FA1DC70003400DC /* SHQuick Quads Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHQuick Quads Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHQuick Quads Poker.png"; sourceTree = "<group>"; };
 		AA8C0A7E1FA1DC70003400DC /* SHGood Times Pay Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHGood Times Pay Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHGood Times Pay Poker.png"; sourceTree = "<group>"; };
 		AA8C0A7F1FA1DC70003400DC /* SHDouble Super Times Pay Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHDouble Super Times Pay Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHDouble Super Times Pay Poker.png"; sourceTree = "<group>"; };
-		AA8C0A801FA1DC70003400DC /* SHRandom Rewards Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHRandom Rewards Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHRandom Rewards Poker.png"; sourceTree = "<group>"; };
 		AA8C0A811FA1DC70003400DC /* SHSuper Times Pay Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHSuper Times Pay Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHSuper Times Pay Poker.png"; sourceTree = "<group>"; };
 		AA8C0A821FA1DC71003400DC /* SHUltimate X Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHUltimate X Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHUltimate X Poker.png"; sourceTree = "<group>"; };
 		AA8C0A831FA1DC71003400DC /* SHDouble Pay Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHDouble Pay Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHDouble Pay Poker.png"; sourceTree = "<group>"; };
 		AA8C0A841FA1DC71003400DC /* SHDouble Down Stud Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHDouble Down Stud Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHDouble Down Stud Poker.png"; sourceTree = "<group>"; };
 		AA8C0A901FA1DC88003400DC /* SHClassic Single Hand (Game King).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHClassic Single Hand (Game King).png"; path = "Video Poker Pay Tables/Images/glassIcons/SHClassic Single Hand (Game King).png"; sourceTree = "<group>"; };
+		AA9984E71FA7630000589E31 /* SHRandom Rewards Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHRandom Rewards Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHRandom Rewards Poker.png"; sourceTree = "<group>"; };
+		AA9984E91FA763BA00589E31 /* SHUltimate 4 of a Kind Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SHUltimate 4 of a Kind Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/SHUltimate 4 of a Kind Poker.png"; sourceTree = "<group>"; };
 		AAC160131EFD736300B81DA1 /* MHGamePayTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHGamePayTables.swift; sourceTree = "<group>"; };
 		AAE143F61F0697650043AFF2 /* Wheel Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Wheel Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Wheel Poker.png"; sourceTree = "<group>"; };
 		AAE143FA1F0697DE0043AFF2 /* Spin Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spin Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Spin Poker.png"; sourceTree = "<group>"; };
@@ -293,9 +293,9 @@
 				AA8C0A7B1FA1DC6F003400DC /* SHDream Card Poker.png */,
 				AA8C0A7E1FA1DC70003400DC /* SHGood Times Pay Poker.png */,
 				AA8C0A7D1FA1DC70003400DC /* SHQuick Quads Poker.png */,
-				AA8C0A801FA1DC70003400DC /* SHRandom Rewards Poker.png */,
+				AA9984E71FA7630000589E31 /* SHRandom Rewards Poker.png */,
 				AA8C0A811FA1DC70003400DC /* SHSuper Times Pay Poker.png */,
-				AA8C0A7C1FA1DC70003400DC /* SHUltimate Four of a Kind Poker.png */,
+				AA9984E91FA763BA00589E31 /* SHUltimate 4 of a Kind Poker.png */,
 				AA8C0A821FA1DC71003400DC /* SHUltimate X Poker.png */,
 			);
 			name = SingleHand;
@@ -379,7 +379,6 @@
 				AAE143FD1F0698080043AFF2 /* Spin Poker Deluxe.png in Resources */,
 				AA8C0A791FA1DC2C003400DC /* UX Poker Bonus Streak.png in Resources */,
 				AA8C0A631FA1DBE1003400DC /* Good Times Pay Poker.png in Resources */,
-				AA8C0A8B1FA1DC71003400DC /* SHRandom Rewards Poker.png in Resources */,
 				AA307D771EF7FC85006FF7DF /* BG.png in Resources */,
 				AA307D5D1EF3F2AF006FF7DF /* VPLogo.png in Resources */,
 				AA6DD9AF1F9E3F0500C74851 /* Fifty Play Draw Poker.png in Resources */,
@@ -388,6 +387,7 @@
 				AA8C0A8E1FA1DC71003400DC /* SHDouble Pay Poker.png in Resources */,
 				AA6DD9CB1F9E41A100C74851 /* Wheel Poker Deluxe.png in Resources */,
 				AA6DD9D31F9E49FD00C74851 /* Ace Invaders.png in Resources */,
+				AA9984EA1FA763BA00589E31 /* SHUltimate 4 of a Kind Poker.png in Resources */,
 				AA8C0A751FA1DC19003400DC /* Super Triple Play Jackpots Poker.png in Resources */,
 				AA8C0A551FA1DBA1003400DC /* Big Split Poker.png in Resources */,
 				AA8C0A591FA1DBBF003400DC /* Double Down Stud Poker.png in Resources */,
@@ -407,10 +407,10 @@
 				AA3F58A51FA1E8F000168637 /* Super Triple Play Draw Poker.png in Resources */,
 				AA3F58A71FA1E91A00168637 /* Ultimate X Poker.png in Resources */,
 				AA307D501EF3EA1A006FF7DF /* Main.storyboard in Resources */,
-				AA8C0A871FA1DC71003400DC /* SHUltimate Four of a Kind Poker.png in Resources */,
 				AAE144051F06AF5E0043AFF2 /* Five Play Draw Poker.png in Resources */,
 				AA8C0A5F1FA1DBD3003400DC /* Dream Card Poker.png in Resources */,
 				AA8C0A571FA1DBB3003400DC /* Double Pay Poker Spin.png in Resources */,
+				AA9984E81FA7630000589E31 /* SHRandom Rewards Poker.png in Resources */,
 				AA307D791EF8165C006FF7DF /* Button.png in Resources */,
 				AA8C0A711FA1DC0D003400DC /* Spin Poker with Dream Card.png in Resources */,
 				AA6DD9E31F9E4B2F00C74851 /* Big Times Draw Poker.png in Resources */,
