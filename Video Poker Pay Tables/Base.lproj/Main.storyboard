@@ -88,7 +88,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.15118729440789475" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="dOv-fJ-bJM" firstAttribute="top" secondItem="oRk-n0-PWT" secondAttribute="bottom" constant="10" id="3WL-fX-bUe"/>
                                     <constraint firstItem="ReY-9M-Hde" firstAttribute="top" secondItem="dOv-fJ-bJM" secondAttribute="bottom" constant="10" id="4kY-43-yUa"/>
@@ -172,7 +172,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.2950824058219178" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.14744157522981255" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="E5u-gs-a9X" kind="show" id="oqe-el-ExL"/>
                                         </connections>
@@ -248,7 +248,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.15343852796052632" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="PQj-qu-zkC" kind="show" id="ERR-6K-emh"/>
                                         </connections>
@@ -439,7 +439,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.29999999999999999" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.15282175164473685" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="LtJ-8E-KzM" secondAttribute="bottom" constant="55" id="3fJ-gc-9KU"/>
                                     <constraint firstItem="ofw-Iv-2WK" firstAttribute="leading" secondItem="dVq-5H-n8v" secondAttribute="leading" constant="20" id="5UO-Lg-dRu"/>
