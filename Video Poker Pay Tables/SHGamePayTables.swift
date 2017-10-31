@@ -38,8 +38,8 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f2sf3, payBack: 96.26),
         payTable(genericPayTable: f2sf4, payBack: 95.37),
         //Deuces Joker
-        payTable(genericPayTable: f1001sf1, payBack: 99.07),
-        payTable(genericPayTable: f1001sf0, payBack: 97.25),
+        payTable(genericPayTable: f1001sf0, payBack: 99.07),
+        payTable(genericPayTable: f1001sf1, payBack: 97.25),
         // Deuces Wild
         payTable(genericPayTable: f9sf0, payBack: 100.77),
         payTable(genericPayTable: f9sf8, payBack: 99.96),
@@ -556,8 +556,8 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f0sf4, payBack: 98.28),
         payTable(genericPayTable: f0sf5, payBack: 97.41),
         //Joker Poker
-        payTable(genericPayTable: f8sf2, payBack: 99.32),
-        payTable(genericPayTable: f8sf3, payBack: 98.59),
+        payTable(genericPayTable: f8sf3, payBack: 99.32),
+        payTable(genericPayTable: f8sf2, payBack: 98.59),
         // payTable(genericPayTable: f8sf4, payBack: 97.15),
         payTable(genericPayTable: f8sf5, payBack: 96.89),
         payTable(genericPayTable: f8sf06, payBack: 96.57),
@@ -602,6 +602,5 @@ var SHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f8sf5ux, payBack: 96.52),
         payTable(genericPayTable: f8sf6ux, payBack: 95.66),
     ],
-    
 ]
 
