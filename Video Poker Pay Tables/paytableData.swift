@@ -99,11 +99,11 @@ struct game {
         } else {
             imageName = name
         }
-        
         range = nil
         range = name.range(of:":")
         if range != nil {
             imageName = name.substring(to: (range?.lowerBound)!)
+            imageName = imageName + " Spin"
         }
         
         self.image = imageName + ".png"
