@@ -375,7 +375,7 @@
                     </view>
                     <connections>
                         <outlet property="PayTableTable" destination="LpW-ou-n6x" id="T0C-9R-Dlp"/>
-                        <outlet property="gameFamilyNameField" destination="cld-zt-JUu" id="Pli-JS-63l"/>
+                        <outlet property="gameFamilyNameField" destination="HUA-Ly-DsD" id="4V1-qO-C5M"/>
                         <outlet property="glassImage" destination="rxg-a0-xlS" id="EBY-U4-S80"/>
                     </connections>
                 </viewController>
@@ -472,7 +472,7 @@
                     </view>
                     <connections>
                         <outlet property="AllPays" destination="QbZ-Ap-xv2" id="0r0-B6-jNR"/>
-                        <outlet property="GameFamilyNameField" destination="x1z-er-MYD" id="PS3-9R-QQI"/>
+                        <outlet property="GameFamilyNameField" destination="IMG-bq-rQl" id="6k4-P1-TVP"/>
                         <outlet property="Returns" destination="LtJ-8E-KzM" id="tDJ-KS-wXZ"/>
                         <outlet property="glassImage" destination="8iB-Py-DjN" id="1Ho-Ik-bp8"/>
                     </connections>
