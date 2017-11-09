@@ -56,7 +56,6 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
         } else {
             glassImage.image = UIImage( named: (currentGame?.image)!)
         }
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
         
         payTables = sortPaytables(payTables: payTables);
         
@@ -66,6 +65,9 @@ class PayTableTable: UIViewController, UITableViewDelegate, UITableViewDataSourc
         PayTableTable.layer.borderWidth = 0.2
         PayTableTable.layer.borderColor = UIColor.white.cgColor
         PayTableTable.clipsToBounds = true
+        
+//        //Hides rows beneath last populated row
+//        PayTableTable.tableFooterView = UIView(frame: .zero)
         
         gameFamilyNameField.text = gameFamilyNames[payTables[0].gameFamily]
     }

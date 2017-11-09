@@ -27,7 +27,7 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
         cell.textLabel?.text = gameFamilies[indexPath.row];
         
         // Customise Cells
-        cell.textLabel?.textColor = UIColor.white
+        //cell.textLabel?.textColor = UIColor.white
         cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.borderWidth = 0.2
         
@@ -40,9 +40,6 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
-//        print( "----- NOT ALPHABETICAL ----")
-//        print(currentGame?.sortedPayTables);
         
         // Customise Table
         GameFamilyTable.layer.cornerRadius = 10

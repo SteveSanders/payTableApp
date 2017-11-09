@@ -1899,7 +1899,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f4sf3, payBack: 96.80),
         payTable(genericPayTable: f4sf4, payBack: 95.70),
         // JoB
-        payTable(genericPayTable: f0sf01, payBack: 100),
+        payTable(genericPayTable: f0sf01, payBack: 100.00),
         payTable(genericPayTable: f0sf0, payBack: 99.54),
         payTable(genericPayTable: f0sf1, payBack: 98.45),
         payTable(genericPayTable: f0sf2, payBack: 98.39),
@@ -1912,7 +1912,7 @@ var MHGamePayTables: [String : [payTable]]? = [
         // payTable(genericPayTable: f8sf8, payBack: 98.924),
         payTable(genericPayTable: f8sf2, payBack: 98.44),
         payTable(genericPayTable: f8sf5, payBack: 96.39),
-        payTable(genericPayTable: f8sf6, payBack: 95.46),
+        payTable(genericPayTable: f8sf06, payBack: 95.46),
         
         // Joker Poker 2 Pair
         payTable(genericPayTable: f106sf0, payBack: 99.91),
@@ -1961,7 +1961,7 @@ var MHGamePayTables: [String : [payTable]]? = [
     "Ultimate X Poker - 3 Hand" : [
         // Bonus
         payTable(genericPayTable: f1sf1, payBack: 99.28),
-        payTable(genericPayTable: f1sf1, payBack: 98.12),
+        payTable(genericPayTable: f1sf2, payBack: 98.12),
         // BPD
         payTable(genericPayTable: f2sf1, payBack: 99.57),
         payTable(genericPayTable: f2sf2, payBack: 98.11),
@@ -2006,7 +2006,7 @@ var MHGamePayTables: [String : [payTable]]? = [
     "Ultimate X Poker - 5 Hand" : [
         // Bonus
         payTable(genericPayTable: f1sf1, payBack: 99.34),
-        payTable(genericPayTable: f1sf1, payBack: 98.18),
+        payTable(genericPayTable: f1sf2, payBack: 98.18),
         // BPD
         payTable(genericPayTable: f2sf1, payBack: 99.68),
         payTable(genericPayTable: f2sf2, payBack: 98.20),
@@ -2051,7 +2051,7 @@ var MHGamePayTables: [String : [payTable]]? = [
     "Ultimate X Poker - 10 Hand" : [
         // Bonus
         payTable(genericPayTable: f1sf1, payBack: 99.40),
-        payTable(genericPayTable: f1sf1, payBack: 98.24),
+        payTable(genericPayTable: f1sf2, payBack: 98.24),
         // BPD
         payTable(genericPayTable: f2sf1, payBack: 99.70),
         payTable(genericPayTable: f2sf2, payBack: 98.22),
@@ -2292,10 +2292,10 @@ var MHGamePayTables: [String : [payTable]]? = [
         payTable(genericPayTable: f1sf2, payBack: 97.55),
         payTable(genericPayTable: f1sf0wd, payBack: 95.32),
         // BPD
-        payTable(genericPayTable: f2sf4, payBack: 98.91),
-        payTable(genericPayTable: f2sf3, payBack: 98.00),
-        payTable(genericPayTable: f2sf2, payBack: 97.04),
-        payTable(genericPayTable: f2sf1, payBack: 96.30),
+        payTable(genericPayTable: f2sf1, payBack: 98.91),
+        payTable(genericPayTable: f2sf2, payBack: 98.00),
+        payTable(genericPayTable: f2sf3, payBack: 97.04),
+        payTable(genericPayTable: f2sf4, payBack: 96.30),
         // DW
         payTable(genericPayTable: f9sf1, payBack: 99.94),
         payTable(genericPayTable: f9sf2, payBack: 99.26),
@@ -2373,8 +2373,8 @@ var MHGamePayTables: [String : [payTable]]? = [
         // Triple Bonus Plus
         payTable(genericPayTable: f112sf2, payBack: 99.59),
         // Triple Double Bonus
-        payTable(genericPayTable: f7sf1, payBack: 98.59),
-        payTable(genericPayTable: f7sf2, payBack: 98.58),
+        payTable(genericPayTable: f7sf1qq, payBack: 98.59),
+        payTable(genericPayTable: f7sf3qq, payBack: 98.58),
     ],
 ]
 

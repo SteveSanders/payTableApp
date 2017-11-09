@@ -37,9 +37,9 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
         // Customise Cells
-        cell.textLabel?.textColor = UIColor.white
-        cell.layer.borderColor = UIColor.white.cgColor
-        cell.layer.borderWidth = 0.2
+//        cell.textLabel?.textColor = UIColor.white
+//        cell.layer.borderColor = UIColor.white.cgColor
+//        cell.layer.borderWidth = 0.2
         
         return cell
     }
@@ -47,7 +47,12 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
+        
+        //Square edges of segmented controler
+        handNumSelector.layer.cornerRadius = 0
+        handNumSelector.layer.borderColor = UIColor.white.cgColor
+        handNumSelector.layer.borderWidth = 0.0
+        handNumSelector.layer.masksToBounds = true
         
         // Customise Table
         GameNamesTable.layer.cornerRadius = 10

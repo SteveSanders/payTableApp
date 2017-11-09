@@ -24,7 +24,6 @@ class PayTableScreen: UIViewController {
             glassImage.image = UIImage( named: (currentGame?.image)!)
         }
         self.navigationController?.isNavigationBarHidden = false
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BG.png")!)
         AllPays.text = screenPayTable?.pays
         //let returnPercentage:String = "\(String(describing: screenPayTable!.payBack))"
         let text = String(format: "%.2f", arguments: [screenPayTable!.payBack])

@@ -119,6 +119,7 @@ let f7sf02qq: genericPayTable = genericPayTable(name: "250 - 9/5", pays: "250/80
 let f7sf2qq: genericPayTable = genericPayTable(name: "400 - 9/5", pays: "400/800/400/160/80/50/50/9/5/4/2/1/1", gameFamily: 7)
 let f7sf5qq: genericPayTable = genericPayTable(name: "8/6", pays: "250/800/400/160/80/50/50/8/6/4/2/1/1", gameFamily: 7)
 let f7sf6qq: genericPayTable = genericPayTable(name: "8/5", pays: "250/800/400/160/80/50/50/8/5/4/2/1/1", gameFamily: 7)
+let f7sf3qq: genericPayTable = genericPayTable(name: "9/5", pays: "400/800/400/160/80/50/50/9/5/4/2/1/1", gameFamily: 7)
 //Used in Double Pay
 let f7sf0dp: genericPayTable = genericPayTable(name: "9/7", pays: "400/50/800/400/160/80/50/9/7/4/2/1/1", gameFamily: 7)
 let f7sf2dp: genericPayTable = genericPayTable(name: "9/5", pays: "400/50/800/400/160/80/50/9/5/4/2/1/1", gameFamily: 7)
