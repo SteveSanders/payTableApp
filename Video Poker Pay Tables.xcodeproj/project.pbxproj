@@ -38,6 +38,7 @@
 		AA6DD9CF1F9E429800C74851 /* Fifty Play with Super Times Pay.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6DD9CE1F9E429800C74851 /* Fifty Play with Super Times Pay.png */; };
 		AA6DD9D31F9E49FD00C74851 /* Ace Invaders.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6DD9D21F9E49FD00C74851 /* Ace Invaders.png */; };
 		AA6DD9E31F9E4B2F00C74851 /* Big Times Draw Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6DD9E21F9E4B2E00C74851 /* Big Times Draw Poker.png */; };
+		AA6F678A1FB5EBEC0047F35A /* FiveStarGamesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F67891FB5EBEC0047F35A /* FiveStarGamesTable.swift */; };
 		AA8C0A551FA1DBA1003400DC /* Big Split Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A541FA1DBA0003400DC /* Big Split Poker.png */; };
 		AA8C0A571FA1DBB3003400DC /* Double Pay Poker Spin.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A561FA1DBB3003400DC /* Double Pay Poker Spin.png */; };
 		AA8C0A591FA1DBBF003400DC /* Double Down Stud Poker.png in Resources */ = {isa = PBXBuildFile; fileRef = AA8C0A581FA1DBBE003400DC /* Double Down Stud Poker.png */; };
@@ -124,6 +125,7 @@
 		AA6DD9CE1F9E429800C74851 /* Fifty Play with Super Times Pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fifty Play with Super Times Pay.png"; path = "Video Poker Pay Tables/Images/glassIcons/Fifty Play with Super Times Pay.png"; sourceTree = "<group>"; };
 		AA6DD9D21F9E49FD00C74851 /* Ace Invaders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ace Invaders.png"; path = "Video Poker Pay Tables/Images/glassIcons/Ace Invaders.png"; sourceTree = "<group>"; };
 		AA6DD9E21F9E4B2E00C74851 /* Big Times Draw Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Big Times Draw Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Big Times Draw Poker.png"; sourceTree = "<group>"; };
+		AA6F67891FB5EBEC0047F35A /* FiveStarGamesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveStarGamesTable.swift; sourceTree = "<group>"; };
 		AA8C0A541FA1DBA0003400DC /* Big Split Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Big Split Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Big Split Poker.png"; sourceTree = "<group>"; };
 		AA8C0A561FA1DBB3003400DC /* Double Pay Poker Spin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Double Pay Poker Spin.png"; path = "Video Poker Pay Tables/Images/glassIcons/Double Pay Poker Spin.png"; sourceTree = "<group>"; };
 		AA8C0A581FA1DBBE003400DC /* Double Down Stud Poker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Double Down Stud Poker.png"; path = "Video Poker Pay Tables/Images/glassIcons/Double Down Stud Poker.png"; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 			children = (
 				AA307D4C1EF3EA1A006FF7DF /* ViewController.swift */,
 				AA307D5E1EF3FDF9006FF7DF /* GameNamesTable.swift */,
+				AA6F67891FB5EBEC0047F35A /* FiveStarGamesTable.swift */,
 				AA307D681EF4360D006FF7DF /* GameFamilyTable.swift */,
 				AA307D6D1EF7D7C9006FF7DF /* PayTableTable.swift */,
 				AA307D741EF7F56B006FF7DF /* PayTableCell.swift */,
@@ -496,6 +499,7 @@
 				AA307D711EF7DDAB006FF7DF /* SHGamePayTables.swift in Sources */,
 				AA307D751EF7F56B006FF7DF /* PayTableCell.swift in Sources */,
 				AA307D4B1EF3EA1A006FF7DF /* AppDelegate.swift in Sources */,
+				AA6F678A1FB5EBEC0047F35A /* FiveStarGamesTable.swift in Sources */,
 				AA307D731EF7E3D1006FF7DF /* PayTableScreen.swift in Sources */,
 				AA307D641EF42B0D006FF7DF /* GenericPayTables.swift in Sources */,
 				AA307D5F1EF3FDF9006FF7DF /* GameNamesTable.swift in Sources */,

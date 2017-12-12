@@ -41,6 +41,11 @@ class GameFamilyTable: UIViewController, UITableViewDelegate, UITableViewDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        if gameFamilies.count == 0 {
+//            print(GameFamilyTable)
+//            performSegue(withIdentifier: "FiveStarSegue", sender: nil)
+//        }
+        
         // Customise Table
         GameFamilyTable.layer.cornerRadius = 10
         GameFamilyTable.layer.masksToBounds = true

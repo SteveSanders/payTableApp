@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,25 +22,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="h4z-Qx-EXh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VPLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="gxO-op-vSp">
-                                <rect key="frame" x="67" y="270" width="240" height="126"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTf-bu-3ss">
+                                <rect key="frame" x="-55" y="221.5" width="485" height="72"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAY TABLES" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4S-iV-KM3">
+                                        <rect key="frame" x="55" y="13" width="375" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3kG-c0-DeG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="gxO-op-vSp" secondAttribute="height" multiplier="832:438" id="kgU-Od-dfn"/>
+                                    <constraint firstItem="h4S-iV-KM3" firstAttribute="leading" secondItem="NTf-bu-3ss" secondAttribute="leading" constant="55" id="DqX-gc-A6p"/>
+                                    <constraint firstAttribute="height" constant="72" id="Sd6-8C-TUt"/>
+                                    <constraint firstItem="h4S-iV-KM3" firstAttribute="top" secondItem="NTf-bu-3ss" secondAttribute="top" constant="13" id="Z6V-CB-SjD"/>
+                                    <constraint firstItem="h4S-iV-KM3" firstAttribute="centerX" secondItem="NTf-bu-3ss" secondAttribute="centerX" id="hOY-cG-h7W"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brought to you by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkB-6I-V20">
+                                <rect key="frame" x="116.5" y="106" width="142" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VPLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="gxO-op-vSp">
+                                <rect key="frame" x="75" y="136.5" width="225" height="120.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gxO-op-vSp" secondAttribute="height" multiplier="15:8" id="2vK-U6-gR5"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gxO-op-vSp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0VG-JM-xwu"/>
-                            <constraint firstItem="h4z-Qx-EXh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8a9-kg-fRk"/>
-                            <constraint firstItem="gxO-op-vSp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fnE-jy-8HS"/>
-                            <constraint firstItem="h4z-Qx-EXh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="fws-oK-tpG"/>
-                            <constraint firstItem="h4z-Qx-EXh" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="j2e-pT-LZP"/>
-                            <constraint firstItem="gxO-op-vSp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="xDi-sH-UhJ"/>
-                            <constraint firstItem="h4z-Qx-EXh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xUe-Bl-W8Q"/>
+                            <constraint firstItem="h4S-iV-KM3" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="6A8-1k-Eih"/>
+                            <constraint firstItem="gxO-op-vSp" firstAttribute="top" secondItem="pkB-6I-V20" secondAttribute="bottom" constant="10" id="6dw-L0-hsW"/>
+                            <constraint firstItem="pkB-6I-V20" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BEu-1y-iZo"/>
+                            <constraint firstItem="NTf-bu-3ss" firstAttribute="top" secondItem="gxO-op-vSp" secondAttribute="bottom" constant="-35" id="ax9-rO-sYQ"/>
+                            <constraint firstItem="NTf-bu-3ss" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="e9x-cd-j7C"/>
+                            <constraint firstItem="gxO-op-vSp" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="75" id="frl-mg-dTO"/>
+                            <constraint firstItem="pkB-6I-V20" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="86" id="gFa-mK-tWr"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -51,7 +75,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BG.png" width="1296" height="1155"/>
         <image name="VPLogo.png" width="832" height="438"/>
     </resources>
 </document>

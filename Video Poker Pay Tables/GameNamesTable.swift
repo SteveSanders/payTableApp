@@ -22,7 +22,7 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if singleHand {
-            return SHGameNames.count
+            return SHGameNames.count + 1
         } else {
             return MHGameNames.count
         }
@@ -31,7 +31,11 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameNameCell", for: indexPath)
         if singleHand {
-            cell.textLabel?.text = SHGameNames[indexPath.row];
+            if indexPath.row == SHGameNames.count {
+                cell.textLabel?.text = "Five Star Games";
+            } else {
+                cell.textLabel?.text = SHGameNames[indexPath.row];
+            }
         } else {
             cell.textLabel?.text = MHGameNames[indexPath.row];
         }
@@ -42,6 +46,16 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
 //        cell.layer.borderWidth = 0.2
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //Should we laod Fibve Star table or game families for selected game?
+        if singleHand && indexPath.row == SHGameNames.count {
+            games = SHGames
+            performSegue(withIdentifier: "FiveStarSegue", sender: nil)
+        } else {
+            performSegue(withIdentifier: "GameFamiliesSegue", sender: nil)
+        }
     }
     
     override func viewDidLoad() {
@@ -84,20 +98,24 @@ class GameNamesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     //In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
         let indexPath = self.GameNamesTable.indexPathForSelectedRow
         guard let selectedRow = indexPath?.row else { return }
+        let row = indexPath![1]
         
-        // Populate Game Object when Selected
-        var gameName : String? = nil
-        if singleHand {
-            gameName = SHGameNames[selectedRow]
-        } else {
-            gameName = MHGameNames[selectedRow]
+        if !singleHand || singleHand && row < SHGameNames.count {
+            // Populate Game Object when Selected
+            var gameName : String? = nil
+            if singleHand {
+                gameName = SHGameNames[selectedRow]
+            } else {
+                gameName = MHGameNames[selectedRow]
+            }
+            populateGameObject(gameName: gameName!, singleHand: singleHand)
+            
+            currentGame = games[gameName!]
+            let destinationViewController = segue.destination as? GameFamilyTable
+            destinationViewController?.gameFamilies = (currentGame?.gameFamilies)!
         }
-        populateGameObject(gameName: gameName!, singleHand: singleHand)
-
-        currentGame = games[gameName!]
-        let destinationViewController = segue.destination as? GameFamilyTable
-        destinationViewController?.gameFamilies = (currentGame?.gameFamilies)!
     }
 }
